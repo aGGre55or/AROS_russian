@@ -6,7 +6,7 @@ Here are the files for supporting the Russian language in the AROS.
 
 * https://aros.sourceforge.io
 * https://github.com/aros-development-team/AROS
-* https://github.com/aros-translation-team/translations/blob/master/README.md
+* https://github.com/aros-translation-team/translations
 <!-- language: lang-none -->
             ______ ______              ______ ______ 
      ______|:: .__|:: .__|_____ ______|:: ___|:: ___|______ _____ 

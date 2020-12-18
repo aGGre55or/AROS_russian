@@ -2,7 +2,7 @@ Who is there?
 -------------
 Here are the files for supporting the Russian language in the AROS.
 
-Look also here:
+### Look also here:
 
 * https://aros.sourceforge.io
 * https://github.com/aros-development-team/AROS

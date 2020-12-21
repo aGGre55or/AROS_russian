@@ -2,7 +2,7 @@
 
 ## What's here?
 
-Here are the files for supporting the Russian language in the AROS.
+Here are the files for supporting the Russian language in the AROS. The main objective of this project is to updating language files in already installed AROS.
 
 ## Well-known problems
 

@@ -16,7 +16,7 @@ This utility has changed so many times (concerned with SMP support) that catalog
 
 ### System/installaros.catalog
 
-Similarly muimaster.catalog
+Similarly to muimaster.catalog
 
 ## Also, look at here
 

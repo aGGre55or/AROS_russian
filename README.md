@@ -1,8 +1,8 @@
 # AROS [Russian]
 
-## What's here?
+## Objectives
 
-Here are the files for supporting the Russian language in the AROS. The main objective of this project is to development of support for the Russian language on Amiga and updating language files in already installed AROS.
+The main objective of this project is to development of support for the russian language on Amiga and updating language files in already installed AROS. Here are the files for supporting the russian language in the AROS.
 
 ## Well-known problems
 

@@ -12,7 +12,7 @@ The main objective of this project is to development of support for the russian 
 
 muimaster.library has been localized only in January 2020, so you will have to wait until it appears in distros to that point to have the muimaster.catalog working.
 
-muimaster.library был локализован только в январе 2020 года, поэтому вам придется подождать, пока эта поддержка появится в дистрибутивах для того, чтобы muimaster.catalog заработал.
+Библиотека muimaster.library была локализована только в январе 2020 года, поэтому вам придется подождать, пока она обновится в дистрибутивах для того, чтобы muimaster.catalog заработал.
 
 ### System/installaros.catalog
 

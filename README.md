@@ -1,11 +1,11 @@
 # AROS [Russian]
 
 ## Who is there?
--------------
+
 Here are the files for supporting the Russian language in the AROS.
 
 ## Well-known problems
--------------
+
 ### Libs/muimaster.catalog
 
 muimaster.library has been localized only in January 2020, so you will have to wait until it appears in distros to that point to have the muimaster.catalog working.
@@ -19,7 +19,6 @@ This utility has changed so many times (concerned with SMP support) that catalog
 Similarly muimaster.catalog
 
 ## Also, look at here:
--------------
 
 * https://aros.sourceforge.io
 * https://github.com/aros-development-team/AROS

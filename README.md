@@ -1,6 +1,6 @@
 # AROS [Russian]
 
-## Who is there?
+## What's here?
 
 Here are the files for supporting the Russian language in the AROS.
 
@@ -18,7 +18,7 @@ This utility has changed so many times (concerned with SMP support) that catalog
 
 Similarly muimaster.catalog
 
-## Also, look at here:
+## Also, look at here
 
 * https://aros.sourceforge.io
 * https://github.com/aros-development-team/AROS

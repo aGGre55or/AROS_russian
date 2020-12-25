@@ -1,0 +1,148 @@
+## version $VER: About.catalog 2.0 (13.12.2020)
+## language russian
+## codeset 2104
+;
+MSG_TITLE
+О системе AROS
+; About AROS
+;
+MSG_PERSONAL_BUILD
+Персональная сборка для %s,
+; Personal Build
+; FIXME: shall I translate this?
+;
+MSG_NIGHTLY_BUILD
+"Ночная" сборка для %s,
+; Nightly Build
+; FIXME: shall I translate this?
+;
+MSG_SNAPSHOT
+Снимок
+; Snapshot
+;
+MSG_MILESTONE
+Веха
+; Milestone
+;
+MSG_RELEASE
+Релиз
+; Release
+;
+MSG_COPYRIGHT
+Copyright © 1995-2020, The AROS Development Team. Все права защищены.
+; Copyright © 1995-2020, The AROS Development Team. All rights reserved.
+;
+MSG_LICENSE_1
+Выпущено на условиях
+; Released under the terms of the
+;
+MSG_LICENSE_2
+Публичная лицензия AROS
+; AROS Public License
+;
+MSG_LICENSE_3
+, Версия 1.1.
+; , version 1.1.
+;
+MSG_MORE_INFORMATION
+Более подробное описание на http://www.aros.org/ru/
+; Please visit http://www.aros.org for more information.
+;
+MSG_PAGE_AUTHORS
+Авторы
+; Authors
+;
+MSG_PAGE_SPONSORS
+Спонсоры
+; Sponsors
+;
+MSG_PAGE_ACKNOWLEDGEMENTS
+Благодарности
+; Acknowledgements
+;
+MSG_SECTION_COORDINATION
+Координаторы
+; Coordination
+;
+MSG_SECTION_EVANGELISM
+Евангелисты
+; Evangelism
+;
+MSG_SECTION_HIDD
+Подсистема HIDD
+; HIDD subsystem
+;
+MSG_SECTION_INTUITION
+Библиотека Intuition
+; Intuition
+;
+MSG_SECTION_GRAPHICS
+Библиотека Graphics
+; Graphics
+;
+MSG_SECTION_SHELL_COMMANDS
+Команды консоли
+; Shell Commands
+;
+MSG_SECTION_WORKBENCH
+Рабочий стол Workbench
+; Workbench
+;
+MSG_SECTION_TOOLS
+Инструментарий
+; Tools
+;
+MSG_SECTION_PREFERENCES
+Приложения настроек
+; Preferences
+;
+MSG_SECTION_BGUI
+Интерфейс BGUI
+; BGUI
+;
+MSG_SECTION_ZUNE
+Интерфейс Zune
+; Zune
+;
+MSG_SECTION_KERNEL
+Ядро системы
+; Kernel
+;
+MSG_SECTION_DOS
+Дисковая подсистема
+; DOS
+;
+MSG_SECTION_NETWORK
+Сетевые компоненты
+;Networking Components
+;
+MSG_SECTION_LIBC_POSIX
+Библиотеки Си и слой POSIX-совместимости
+; C link library and POSIX layer
+;
+MSG_SECTION_DOCUMENTATION
+Документация
+; Documentation
+;
+MSG_SECTION_TRANSLATION
+Перевод и локализация
+; Translation
+;
+MSG_SECTION_ARTISTRY
+Художественное оформление
+; Artistry
+;
+MSG_SECTION_WEBSITE
+Web-сайт
+; Website
+;
+MSG_SECTION_DATATYPES
+Поддержка типов данных
+;Datatypes
+;
+MSG_SECTION_TESTING
+Тестирование
+; Testing
+MSG_BUILD_CPU
+Эта версия AROS собрана для процессоров %s.
+; This version of AROS has been built for %s processors.

@@ -1,0 +1,27 @@
+## version $VER: aboutwindow.catalog 1.0 (23.12.2020)
+## language russian
+## codeset 2104
+;
+; Translated by Sergey Mineychev aka Keen
+;
+;
+MSG_ABOUT
+О системе
+; About
+;
+MSG_AUTHORS
+Авторы
+; Authors
+;
+MSG_SPONSORS
+Спонсоры
+; Sponsors
+;
+MSG_SECTION_PROGRAMMING
+Программисты
+; Programming
+;
+MSG_SECTION_TRANSLATING
+Переводчики
+; Translating
+;

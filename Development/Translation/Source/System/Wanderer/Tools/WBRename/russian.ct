@@ -1,0 +1,72 @@
+## version $VER: WBRename.catalog 2.0 (28.12.2020)
+## language russian
+## codeset 2104
+;
+;
+MSG_TITLE
+WBRename
+; WBRename
+;
+MSG_DESCRIPTION
+Переименовывает файлы и директории
+; Renames files and drawers
+;
+MSG_COPYRIGHT
+(с) 2006-2020, AROS Dev Team
+; (c)2006, AROS Dev Team
+;
+MSG_WINDOW_TITLE
+Переименование
+; Rename
+;
+MSG_LINE
+Новое имя для: '%s'
+; Enter a new name
+;
+MSG_NAME
+Имя:
+; New name:
+;
+MSG_OK
+_OK
+; _OK
+;
+MSG_CANCEL
+О_тмена
+; Ca_ncel
+;
+MSG_ERROR_TITLE
+Ошибка
+; WBRename: Error
+;
+MSG_ALREADY_EXIST
+'%s' уже существует!
+; '%s' already exists!
+;
+MSG_FAILED
+Переименование '%s' завершилось\nс ошибкой: '%s'!
+; Rename of '%s' failed with error:\n'%s'!
+;
+MSG_ILLEGAL_CHARS
+'%s' содержит недопустимые символы!
+; '%s' contains illegal characters!
+;
+MSG_NEEDS_MORE_ARGS
+Требуется больше аргументов
+; Need 2 arguments!
+;
+MSG_INVALID_LOCK
+Не удалось захватить директорию
+; Invalid directory lock!
+;
+MSG_WB_ONLY
+Это приложение не работает в CLI\n
+; Cannot be started from shell!\n
+;
+MSG_FAILED_CREATE_APP
+Не удалось создать приложение
+; Failed to create Application!
+;
+MSG_OUTOFMEMORY
+Не удалось выделить память
+; Can't allocate RAM!

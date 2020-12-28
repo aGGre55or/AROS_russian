@@ -1,0 +1,143 @@
+## version $VER: info.catalog 1.3 (28.12.2020)
+## language russian
+## codeset 2104
+;
+;
+MSG_TITLE
+Свойства
+;
+MSG_DESCRIPTION
+Свойства иконки
+;
+MSG_COPYRIGHT
+Свойства иконки\n(с) AROS Dev Team
+;
+MSG_ICON
+Иконка
+;
+MSG_NAME
+Имя
+;
+MSG_COMMENT
+Комментарий
+;
+MSG_STACK
+Размер стека
+;
+MSG_DEFTOOL
+Приложение
+;
+MSG_ICONTYPE
+Тип иконки
+;
+MSG_DISK
+Диск
+;
+MSG_DRAWER
+Директория
+;
+MSG_TOOL
+Приложение
+;
+MSG_PROJECT
+Проект
+;
+MSG_GARBAGE
+Корзина
+;
+MSG_DEVICE
+Устройство
+;
+MSG_KICK
+Kick
+;
+MSG_APPICON
+AppIcon
+;
+MSG_INFORMATION
+Информация
+;
+MSG_PROTECTION
+Атрибуты
+;
+MSG_TOOLTYPES
+Аргументы
+;
+MSG_ERROR_SHELLSTART
+Ошибка запуска из CLI
+;
+MSG_ABOUT
+О программе...
+;
+MSG_QUIT
+Выход
+;
+MSG_READ
+Чтение
+;
+MSG_WRITE
+Запись
+;
+MSG_EXECUTE
+Выполнение
+;
+MSG_DELETE
+Удаление
+;
+MSG_SCRIPT
+Сценарий
+;
+MSG_PURE
+Резидентный
+;
+MSG_ARCHIVED
+Архив
+;
+MSG_STICKY
+Хранимый
+;
+MSG_SIZE
+Размер
+;
+MSG_VERSION
+Версия
+;
+MSG_OWNERID
+ID владельца
+;
+MSG_GROUPID
+ID группы
+;
+MSG_OWNERNAME
+Имя владельца
+;
+MSG_GROUPNAME
+Имя группы
+;
+MSG_TYPE
+Тип
+;
+MSG_DATE
+Дата
+;
+MSG_NEW_KEY
+Новая клавиша
+;
+MSG_DELETE_KEY
+Удалить клавишу
+;
+MSG_SAVE
+_Сохранить
+;
+MSG_CANCEL
+_Отменить
+;
+MSG_OK
+ОК
+;
+MSG_PATH
+Путь
+;
+MSG_BTNPATH
+Перейти...
+;

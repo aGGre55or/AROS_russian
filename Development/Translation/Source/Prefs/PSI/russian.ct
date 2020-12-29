@@ -89,19 +89,19 @@ MSG_TITLE_PUBSCREENWINDOW
 Редактор экрана:
 ;
 MSG_TITLE_SAVE
-Сохранить PS-файл
+Сохранить PSI-файл
 ;
 MSG_TITLE_OPEN
-Загрузить PS-файл
+Загрузить PSI-файл
 ;
 MSG_TITLE_APPEND
-Добавить PS-файл
+Добавить PSI-файл
 ;
 MSG_LIST_SCREENNAME
-имя
+экран
 ;
 MSG_LIST_SCREENMODE
-экранный режим
+видеорежим
 ;
 MSG_LIST_UNKNOWNMODE
 (неизвестно)
@@ -326,7 +326,7 @@ MSG_HELP_WHEEL
 Настройка цвета в\nзаданной группе.
 ;
 MSG_HELP_INFO
-Название видеорежима,\nразмер и глубина.
+Название видеорежима,\nего размер и глубина.
 ;
 MSG_HELP_NAME
 Имя общего экрана.\nРазрешено использовать *\nдля внешних экранов.

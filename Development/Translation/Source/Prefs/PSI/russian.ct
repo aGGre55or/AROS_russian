@@ -1,0 +1,435 @@
+## version $VER: PSI.catalog 19.1 (29.12.20)
+## codeset 2104
+## language russian
+MSG_MENU_PROJECT
+Проект
+;Project
+MSG_MENU_PROJECT_OPEN
+Открыть...
+;Open...
+MSG_MENU_PROJECT_APPEND
+Добавить...
+;Append...
+MSG_MENU_PROJECT_SAVEAS
+Сохранить как...
+;Save As...
+MSG_MENU_PROJECT_ABOUT
+О проекте...
+;About...
+MSG_MENU_PROJECT_QUIT
+Выход
+;Quit
+MSG_MENU_EDIT
+Редактор
+;Edit
+MSG_MENU_EDIT_LASTSAVED
+Последнее сохранение
+;Last Saved
+MSG_MENU_EDIT_RESTORE
+Восстановить
+;Restore
+MSG_MENU_SETTINGS
+Настройки
+;Settings
+MSG_MENU_SETTINGS_MUI
+Настройки MUI...
+;MUI...
+MSG_MENU_COLORS
+Цвета
+;Colors
+MSG_MENU_COLORS_PRESETS
+Цветовые шаблоны
+;Presets
+MSG_MENU_COLORS_PRESETS_2COL
+Монохромные
+;Monochrome Settings
+MSG_MENU_COLORS_PRESETS_4COL
+4х-цветные
+;4-Color Settings
+MSG_MENU_COLORS_PRESETS_8COL
+Стиль MagicWB
+;MagicWB Settings
+MSG_BUTTON_OK
+_ОК
+;
+MSG_BUTTON_CANCEL
+Отмена
+;
+MSG_BUTTON_SAVE
+Сохранить
+;
+MSG_BUTTON_USE
+Принять
+;
+MSG_BUTTON_NEW
+_Создать
+;
+MSG_BUTTON_COPY
+_Дублировать
+;
+MSG_BUTTON_DELETE
+_Удалить
+;
+MSG_BUTTON_EDIT
+_Редактор...
+;
+MSG_BUTTON_OPEN
+_Открыть
+;
+MSG_BUTTON_CLOSE
+_Закрыть
+;
+MSG_BUTTON_JUMP
+_Перейти
+;
+MSG_BUTTON_KILL
+Убить
+;
+MSG_TITLE_PUBSCREENWINDOW
+Редактор экрана:
+;
+MSG_TITLE_SAVE
+Сохранить PS-файл
+;
+MSG_TITLE_OPEN
+Загрузить PS-файл
+;
+MSG_TITLE_APPEND
+Добавить PS-файл
+;
+MSG_LIST_SCREENNAME
+имя
+;
+MSG_LIST_SCREENMODE
+экранный режим
+;
+MSG_LIST_UNKNOWNMODE
+(неизвестно)
+;
+MSG_LIST_FOREIGNSCREEN
+(внешний)
+;
+MSG_LABEL_PUBLICNAME
+_Имя:
+;
+MSG_LABEL_SCREENTITLE
+_Заголовок:
+;
+MSG_LABEL_DISPLAYMODE
+_Экранный режим:
+;
+MSG_LABEL_DEFAULTFONT
+_Шрифт:
+;
+MSG_LABEL_BACKGROUND
+_Фон:
+;
+MSG_LABEL_PUBLICFLAGS
+Флаги:
+;
+MSG_LABEL_AUTOSCROLL
+_Автопрокрутка
+;
+MSG_LABEL_NODRAG
+Неподви_жный
+;
+MSG_LABEL_EXCLUSIVE
+_Недоступный
+;
+MSG_LABEL_INTERLEAVED
+_Чересстрочный
+;
+MSG_LABEL_OPENBEHIND
+По_зади других
+;
+MSG_LABEL_SYSTEMDEFAULT
+С_истемный
+;
+MSG_LABEL_AUTOCLOSE
+Автозакрытие
+;
+MSG_LABEL_CLOSEGADGET
+Закрываемый
+;
+MSG_LABEL_OVERSCAN
+Р_азвёртка:
+;
+MSG_LABEL_SIZE
+_Размер:
+;
+MSG_LABEL_CROSS
+_x
+;
+MSG_LABEL_DEPTH
+_Глубина:
+;
+MSG_LABEL_VISIBLE
+Показано:
+;
+MSG_LABEL_MINIMUM
+Минимум:
+;
+MSG_LABEL_MAXIMUM
+Максимум:
+;
+MSG_LABEL_BITSPERGUN
+Бит/пучок:
+;
+MSG_LABEL_SCANRATE
+Частота развёртки:
+;
+MSG_LABEL_SCANLINE
+Частота строк:
+;
+MSG_CLI_SCREENOPENED
+Экран открыт (0).\n
+;
+MSG_CLI_SCREENOPENFAILED
+Не удалось открыть экран (5).\n
+;
+MSG_CLI_SCREENCLOSED
+Экран закрыт (0).\n
+;
+MSG_CLI_SCREENCLOSEFAILED
+Ошибка при закрытии экрана (5).\n
+;
+MSG_CLI_SYNTAXERROR
+Синтаксическая ошибка в CLI (10).\n
+;
+MSG_CLI_SCREENNOTFOUND
+Экран не существует (5).\n
+;
+MSG_CLI_OUTOFMEMORY
+Не хватает памяти (20).\n
+;
+MSG_CLI_NOAPPLICATION
+Не удалось создать приложение (20).\n
+;
+MSG_CLI_NOMUIMASTER
+Не удалось открыть muimaster.library V11 (20).\n
+;
+MSG_ABOUT_NUMBEROFSCREENS
+Всего экранов:
+;
+MSG_TEXT_UNKNOWNMODE
+Неизвестный экранный режим
+;
+MSG_TEXT_FOREIGNSCREEN
+Внешний общий экран
+;
+MSG_PALETTE_TITLE
+Палитра
+;
+MSG_PALETTE_FIRST
+Первые 4 цвета
+;
+MSG_PALETTE_LAST
+Последние 4 цвета
+;
+MSG_SYSPENS_TITLE
+Системная палитра
+;
+MSG_SYSPEN_DETAIL
+Выделение
+;
+MSG_SYSPEN_BLOCK
+Рамка
+;
+MSG_SYSPEN_TEXT
+Текст
+;
+MSG_SYSPEN_SHINE
+Яркость
+;
+MSG_SYSPEN_SHADOW
+Тень
+;
+MSG_SYSPEN_FILL
+Заливка
+;
+MSG_SYSPEN_FILLTEXT
+Заливка текста
+;
+MSG_SYSPEN_BACKGROUND
+Фон
+;
+MSG_SYSPEN_HIGHLIGHT
+Подсветка
+;
+MSG_SYSPEN_BARDETAIL
+Окантовка
+;
+MSG_SYSPEN_BARBLOCK
+Полоса
+;
+MSG_SYSPEN_BARTRIM
+Выемка
+;
+MSG_PALPRES_TITLE
+Выбор палитры
+;
+MSG_PALPRES_STANDARD
+0\0Стандарт
+;
+MSG_PALPRES_TINT
+1\0Оттенки
+;
+MSG_PALPRES_PHARAO
+2\0Фараон
+;
+MSG_PALPRES_SUNSET
+3\0Закат
+;
+MSG_PALPRES_OCEAN
+4\0Океан
+;
+MSG_PALPRES_STEEL
+5\0Сталь
+;
+MSG_PALPRES_CHOCOLATE
+6\0Шоколад
+;
+MSG_PALPRES_PEWTER
+7\0Олово
+;
+MSG_PALPRES_WINE
+8\0Вино
+;
+MSG_PALPRES_MAGICWB
+9\0MagicWB
+;
+MSG_PALPRES_CLONEWB
+Рабочий стол
+;
+MSG_OVERSCAN_TEXT
+Чёткий тип (текст)
+;
+MSG_OVERSCAN_GRAPHICS
+Нечёткий тип (графика)
+;
+MSG_OVERSCAN_EXTREME
+Запредельная
+;
+MSG_OVERSCAN_MAXIMUM
+Максимально допустимая
+;
+MSG_EDITPAGE_ATTRIBUTES
+Свойства
+;
+MSG_EDITPAGE_DISPLAY
+Отображение
+;
+MSG_EDITPAGE_COLORS
+Цвета
+;
+MSG_HELP_WHEEL
+Настройка цвета в\nзаданной группе.
+;
+MSG_HELP_INFO
+Название видеорежима,\nразмер и глубина.
+;
+MSG_HELP_NAME
+Имя общего экрана.\nРазрешено использовать *\nдля внешних экранов.
+;
+MSG_HELP_TITLE
+Текст выводимый\nв заголовок экрана.
+;
+MSG_HELP_FONT
+Шрифт на экране\nпо умолчанию.
+;
+MSG_HELP_BACKGROUND
+Изображение используемое\nдля заливки фона экрана.
+;
+MSG_HELP_AUTOSCROLL
+Экран прокручивается когда курсор\nмыши касается нижней границы.
+;
+MSG_HELP_NODRAG
+Экран будет нельзя\nсдвигать вверх/вниз.
+;
+MSG_HELP_EXCLUSIVE
+Экран не может выделяться\nдля отображения окон.
+;
+MSG_HELP_INTERLEAVED
+Растровое изображение экрана\nвыделяется в чересстрочном режиме.
+;
+MSG_HELP_BEHIND
+Экран открывается позади\nвсех других экранов.
+;
+MSG_HELP_SYSTEMDEFAULT
+Экран станет системным\nэкраном по умолчанию.
+;
+MSG_HELP_AUTOCLOSE
+Экран закроется сам, как только\nна нём закроют последнее окно.
+;
+MSG_HELP_CLOSEGADGET
+Экран будет иметь\nкнопку закрытия.
+;
+MSG_HELP_MODELIST
+Список доступных\nвидеорежимов.
+;
+MSG_HELP_MODEINFO
+Свойства выбранного\nэкранного режима.
+;
+MSG_HELP_OVERSCAN
+Выбор типа развёртки.
+;
+MSG_HELP_WIDTH
+Ширина экрана,\nизмеряется в пикселях.
+;
+MSG_HELP_HEIGHT
+Высота экрана,\nизмеряется в пикселях.
+;
+MSG_HELP_DEPTH
+Глубина экрана,\nизмеряется в битпланах.
+;
+MSG_HELP_PENLIST
+Системные цвета, могут\nперетаскиваться друг на друга.
+;
+MSG_HELP_COLORFIELD
+Текущий цвет, изменяется\nщелчком по его полю.
+;
+MSG_HELP_KILLCOLOR
+Удалить этот цвет\nиз группы.
+;
+MSG_HELP_NEWCOLOR
+Добавить новый цвет\nв группу.
+;
+MSG_HELP_EDITOK
+Выйти и сохранить\nизменения для этого экрана.
+;
+MSG_HELP_EDITCANCEL
+Выйти и \33bотменить\33n\nизменения для этого экрана.
+;
+MSG_HELP_SCREENLIST
+Список настроенных\nобщих экранов.
+;
+MSG_HELP_NEWSCREEN
+Создать новый\nобщий экран.
+;
+MSG_HELP_COPYSCREEN
+Создать копию\nвыбранного экрана.
+;
+MSG_HELP_DELETESCREEN
+Удалить выбранный\nобщий экран.
+;
+MSG_HELP_EDITSCREEN
+Изменить выбранный\nобщий экран.
+;
+MSG_HELP_OPENSCREEN
+Открыть выбранный\nобщий экран.
+;
+MSG_HELP_CLOSESCREEN
+Закрыть выбранный\nобщий экран.
+;
+MSG_HELP_JUMPSCREEN
+Перейти на выбранный\nобщий экран.
+;
+MSG_HELP_SAVE
+Выйти и сохранить\nизменения на диск.
+;
+MSG_HELP_USE
+Выйти и сохранить изменения\nдо перезагрузки.
+;
+MSG_HELP_CANCEL
+Выйти и\n\33bотменить\33n изменения.
+;

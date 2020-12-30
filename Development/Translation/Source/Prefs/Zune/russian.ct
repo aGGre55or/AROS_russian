@@ -1,0 +1,920 @@
+## version $VER: Zune.catalog 2.1 (31.12.2020)
+## language russian
+## codeset 2104
+;
+;
+; buttonsp.c
+;-----------
+MSG_GENERAL
+Основные
+; General
+;
+MSG_BACKGROUND_COLON
+Заливка кнопки
+; Background:
+;
+MSG_BACKGROUND_PRESSED
+Заливка\nнажатой кнопки:
+; Background in\npressed state:
+;
+MSG_TEXT_BUTTONS
+Текст кнопок
+; Text Buttons
+;
+MSG_FRAME_COLON
+Рамка
+; Frame:
+;
+MSG_FONT
+Шрифт
+; Font:
+;
+MSG_IMAGE_BUTTONS
+Кнопки с иконками
+; Image Buttons
+;
+MSG_ADJUST_FRAME
+Изменить рамку
+; Adjust Frame
+;
+MSG_CHECKMARKS
+Галочки
+; Checkmarks
+;
+MSG_LOOK_COLON
+Вид:
+; Look:
+;
+MSG_CHECKMARK
+Отметки
+; Checkmark
+;
+MSG_RADIO_BUTTONS
+Переключатели
+; Radio Buttons
+;
+MSG_RADIOBUTTON
+Переключатель
+; Radiobutton
+;
+MSG_LOOK
+Вид
+; Look
+;
+MSG_H
+Гор.
+; H
+;
+MSG_V
+Верт.
+; V
+;
+MSG_SPACING
+Отступы
+; Spacing
+;
+;=============================
+; cyclesp.c
+;----------
+MSG_BELOW
+ниже
+; below
+;
+MSG_ON_ACTIVE
+поверх
+; on active
+;
+MSG_CYCLE_GADGET_DESIGN
+Вид кнопки-переключателя
+; Cycle Gadget Design
+;
+MSG_CYCLE
+Циркуляр
+; Cycle
+;
+MSG_POPUP_MENU_CONTROL
+Управление списком
+; Popup Menu Control
+;
+MSG_POSITION
+Положение:
+; Position:
+;
+MSG_LEVEL
+Порог:
+; Level:
+;
+MSG_SPEED
+Скорость:
+; Speed:
+;
+MSG_POPUP_MENU_DESIGN
+Вид выпадающего меню
+; Popup Menu Design
+;
+MSG_FRAME
+Рамка
+; Frame
+;
+MSG_ADJUST_BACKGROUND
+Изменить заливку
+; Adjust Background
+;
+MSG_BACKGROUND
+Заливка
+; Background
+;
+MSG_RECESSED_ENTRIES
+Выемки:
+; Recessed Entries:
+;
+;=============================
+; groupsp.c
+;__________
+MSG_ABOVE
+сверху
+; above
+;
+MSG_CENTERED
+по центру
+; centered
+;
+MSG_STANDARD
+обычный
+; standard
+;
+MSG_HILITE
+выделение
+; hilite
+;
+MSG_3D
+объёмный
+; 3d
+;
+MSG_OUTLINE
+контурный
+; outline
+;
+MSG_TITLE
+Заголовок
+; Title
+;
+MSG_COLOR
+Вид заголовков:
+; Color:
+;
+MSG_HORIZONTAL
+По горизонтали:
+; Horizontal:
+;
+MSG_VERTICAL
+Вертикальное:
+; Vertical:
+;
+MSG_REGISTER
+Вкладка
+; Register
+;
+MSG_DEFAULT_SIZE_TRUNCATE_TITLES
+Обрезать заголовки
+; Default size truncate titles
+;
+MSG_NORMAL
+Обычные
+; Normal
+;
+MSG_VIRTUAL
+Виртуальные
+; Virtual
+;
+MSG_FRAMED
+Внутри
+; Framed
+;
+MSG_PAGE
+Вокруг
+; Page
+;
+;=============================
+; listviewsp.c
+;-------------
+MSG_SHIFTED
+со сдвигом
+; shifted
+;
+MSG_ALWAYS
+как есть
+; always
+;
+MSG_LINEAR
+линейное
+; linear
+;
+MSG_MIXED
+смешанное
+; mixed
+;
+MSG_CONTROL
+Свойства
+; Control
+;
+MSG_MULTI
+Множество:
+; Multi:
+;
+MSG_REFRESH
+Обновление:
+; Refresh:
+;
+MSG_SMOOTH
+Сглаживание:
+; Smooth:
+;
+MSG_FONTS
+Шрифты
+; Fonts
+;
+MSG_NORMAL_COLON
+Обычный:
+; Normal:
+;
+MSG_FIXED
+Моноширинный:
+; Fixed:
+;
+MSG_LEADING
+Интерлиньяж
+; Leading
+;
+MSG_DESIGN
+Вид списков
+; Design
+;
+MSG_INPUT_LISTS
+Списки\nввода:
+; Input \nLists:
+;
+MSG_READONLY_LISTS
+Неизменяемые\nсписки
+; Readonly \nLists:
+;
+MSG_CURSOR
+Курсор
+; Cursor
+;
+MSG_ACTIVE
+Активный:
+; Active:
+;
+MSG_ACTIVE_SELECTED
+Активный и\nвыбранный:
+; Active &\nSelected:
+;
+MSG_SELECTED
+Выбранный:
+; Selected:
+;
+;=============================
+; navigationp.c
+;______________
+MSG_ALWAYS_SOLID
+без тени
+; always solid
+;
+MSG_GHOSTED_ON_BOX
+тень на рамке
+; ghosted on box
+;
+MSG_GHOSTED_OUTSIDE_BOX
+тень за рамкой
+; ghosted outside box
+;
+MSG_ALWAYS_GHOSTED
+утопленный
+; always ghosted
+;
+MSG_SHOW_FRAMES
+Рамками
+; show frames
+;
+MSG_SHOW_OBJECTS
+Объектами
+; show objects
+;
+MSG_KL_PRESS
+Ввод:
+; Press:
+;
+MSG_KL_TOGGLE
+Переключение:
+; Toggle:
+;
+MSG_KL_UP
+Вверх:
+; Up:
+;
+MSG_KL_DOWN
+Вниз:
+; Down:
+;
+MSG_KL_PAGE_UP
+Страницей вверх:
+; Page up:
+;
+MSG_KL_PAGE_DOWN
+Страницей вниз:
+; Page down:
+;
+MSG_KL_TOP
+В начало:
+; Top:
+;
+MSG_KL_BOTTOM
+В конец:
+; Bottom:
+;
+MSG_KL_LEFT
+Влево:
+; Left:
+;
+MSG_KL_RIGHT
+Вправо:
+; Right:
+;
+MSG_KL_WORD_LEFT
+Словом левее:
+; Word left:
+;
+MSG_KL_WORD_RIGHT
+Словом правее:
+; Word right:
+;
+MSG_KL_LINE_START
+Начало строки:
+; Line start:
+;
+MSG_KL_LINE_END
+Конец строки:
+; Line end:
+;
+MSG_KL_NEXT_GADGET
+След. элемент:
+; Next gadget:
+;
+MSG_KL_PREV_GADGET
+Пред. элемент:
+; Prev. gadget:
+;
+MSG_KL_GADGET_OFF
+От элемента:
+; Gadget off:
+;
+MSG_KL_CLOSE_WINDOW
+Закрыть окно:
+; Close window:
+;
+MSG_KL_NEXT_WINDOW
+След. окно:
+; Next window:
+;
+MSG_KL_PREV_WINDOW
+Пред. окно:
+; Prev. window:
+;
+MSG_KL_HELP
+Помощь:
+; Help:
+;
+MSG_KL_POPUP
+Подсказка:
+; Popup:
+;
+MSG_DRAG_DROP
+Drag & Drop
+; Drag & Drop
+MSG_LEFT_BUTTON
+Левая кнопка:
+; Left Button:
+;
+MSG_MIDDLE_BUTTON
+Средняя кнопка:
+; Middle Button:
+;
+MSG_AUTOSTART
+Автостарт:
+; Autostart:
+;
+MSG_PIXEL
+%ld пикс.
+; %ld pixel
+;
+MSG_BALANCING_GROUPS
+Раздвижные списки
+; Balancing Groups
+;
+MSG_EXAMPLE
+Пример:
+; Example:
+;
+MSG_TRY_WITH
+Попробуй
+; Try with
+;
+MSG_SHIFT
+двигать
+; shift
+;
+MSG_TOO
+это!
+; too!
+;
+MSG_KEYBOARD_CONTROL
+Управление клавиатурой
+; Keyboard Control
+;
+MSG_COLOR_ACTIVE_OBJ
+Цвет активного объекта
+; Color of active object:
+;
+MSG_NEWLOOK
+новый
+; newlook
+;
+MSG_CUSTOM
+по выбору
+; custom
+;
+MSG_ARROWS
+Стрелки
+; Arrows
+;
+MSG_UP
+вверх
+; up
+;
+MSG_ARROW_UP
+Стрелка вверх
+; Arrow up
+;
+MSG_ARROW_DOWN
+Стрелка вниз
+; Arrow down
+;
+MSG_DOWN
+вниз
+; down
+;
+MSG_LEFT
+влево
+; left
+;
+MSG_ARROW_LEFT
+Стрелка влево
+; Arrow left
+;
+MSG_ARROW_RIGHT
+Стрелка вправо
+; Arrow right
+;
+MSG_RIGHT
+вправо
+; right
+;
+MSG_BAR
+Полоска
+; Bar
+;
+MSG_GADGET_TYPE
+Тип элемента:
+; Gadget Type:
+;
+MSG_SCROLLER
+Бегунок
+; Scroller
+;
+MSG_KNOB
+Кнопка
+; Knob
+;
+MSG_ARRANGEMENT
+Вид
+; Arrangement
+;
+;=============================
+; slidersp.c
+;-----------
+MSG_CONTAINER_DESIGN
+Вид полоски
+; Container Design
+;
+MSG_KNOB_DESIGN
+Вид бегунка
+; Knob Design
+;
+MSG_EXAMPLE_SLIDERS
+Примеры бегунков
+; Example Sliders
+;
+;=============================
+; specialp.c
+;-----------
+MSG_TEXT_FIELDS
+Текстовые поля
+; Text fields
+;
+MSG_EXAMPLE_TEXTFIELD
+Пример поля
+; Example Textfield
+;
+MSG_PROGRESS_INDICATOR
+Индикатор прогресса
+; Progress Indicator
+;
+MSG_DEVICE_IMAGES
+Иконки устройств
+; Device Images
+;
+MSG_DRAWER
+Директория
+; Drawer
+;
+MSG_HARDDISK
+Жёсткий диск
+; Harddisk
+;
+MSG_DISK
+Дискета
+; Disk
+;
+MSG_RAM
+RAM
+; RAM
+;
+MSG_VOLUME
+Том
+; Volume
+;
+MSG_NETWORK
+Сеть
+; Network
+;
+MSG_ASSIGN
+Присвоение
+; Assign
+;
+MSG_TAPE_IMAGES
+Иконки проигрывателя
+; Tape Images
+;
+MSG_TAPE_PLAY
+Вопроизведение
+; Tape play
+;
+MSG_TAPE_PLAYBACK
+Реверс
+; Tape playback
+;
+MSG_TAPE_PAUSE
+Пауза
+; Tape pause
+;
+MSG_TAPE_STOP
+Стоп
+; Tape stop
+;
+MSG_TAPE_RECORD
+Запись
+; Tape record
+;
+MSG_TAPE_UP
+На запись вверх
+; Tape up
+;
+MSG_TAPE_DOWN
+На запись вниз
+; Tape down
+;
+;=============================
+; stringsp.c
+;-----------
+MSG_STRING_FRAME
+Рамка строчки
+; String Frame
+;
+MSG_SPECIAL_POPUP_BUTTONS
+Особые кнопки вызова
+; Special Popup Buttons
+;
+MSG_POPUP
+Вызов
+; Popup
+;
+MSG_DEFAULT
+Основная
+; Default
+;
+MSG_FILE
+Файл
+; File
+;
+MSG_POPUP_FILE
+Запрос файла
+; Popup file
+;
+MSG_POPUP_DRAWER
+Запрос директории
+; Popup drawer
+;
+MSG_INACTIVE_STRING_COLORS
+Цвет неактивной строки
+; Inactive String Colors
+;
+MSG_TEXT
+Текст
+; Text
+;
+MSG_ACTIVE_STRING_COLORS
+Цвет активной строки
+; Active String Colors
+;
+MSG_MARKED_STRING_COLORS
+Цвет отмеченной строки
+; Marked String Colors
+;
+MSG_EXAMPLE_STRING_GADGET
+Пример строчного элемента
+; Example String Gadget
+;
+;=============================
+; windowp.c
+;----------
+MSG_FORGET_ON_EXIT
+не запоминать
+; forget on exit
+;
+MSG_REMEMBER_ON_EXIT
+запомнить при выходе
+; remember on exit
+;
+MSG_SAVE_ON_EXIT
+сохранить при выходе
+; save on exit
+;
+MSG_SMART
+аккуратное
+; smart
+;
+MSG_SIMPLE
+простое
+; simple
+;
+MSG_WITHOUT_CLEAR
+не очищать окно
+; without clear
+;
+MSG_WITH_CLEAR
+очищать окно
+; with clear
+;
+MSG_POSITIONS
+Положение:
+; Positions:
+;
+MSG_REDRAW
+Перерисовка:
+; Redraw:
+;
+MSG_TINY
+Мелкий:
+; Tiny:
+;
+MSG_BIG
+Крупный:
+; Big:
+;
+MSG_WINDOW
+Окно
+; Window
+;
+MSG_REQUESTER
+Диалог запроса
+; Requester
+;
+MSG_L
+Л
+; L
+;
+MSG_T
+В
+; T
+;
+MSG_R
+П
+; R
+;
+MSG_B
+Н
+; B
+;
+MSG_BUTTONS
+Кнопки
+; Buttons
+;
+;=============================
+; zune.c
+;-------
+MSG_WINTITLE1
+Zune - глобальные настройки
+; Zune - Global Prefs
+;
+MSG_WINTITLE2
+Zune - настройки : %s
+; Zune - Prefs for : %s
+;
+MSG_MEN_PROJECT
+Проект
+; Project
+;
+MSG_MEN_OPEN
+Открыть...
+; Open ...
+;
+MSG_MEN_OPEN_SC
+O
+; O
+;
+MSG_MEN_APPEND
+Добавить...
+; Append ...
+;
+MSG_MEN_SAVEAS
+Сохранить как...
+; Save As ...
+;
+MSG_MEN_SAVEAS_SC
+A
+; A
+;
+MSG_MEN_ABOUT
+О Zune...
+; About Zune ...
+;
+MSG_MEN_ABOUT_SC
+?
+; ?
+;
+MSG_MEN_QUIT
+Выход
+; Quit
+;
+MSG_MEN_QUIT_SC
+Q
+; Q
+;
+MSG_FRAME_CLIPBOARD
+Палитра рамок
+; Frame Clipboard
+;
+MSG_IMAGE_CLIPBOARD
+Палитра графики
+; Image Clipboard
+;
+MSG_GAD_TEST
+_Тест
+; _Test
+;
+MSG_GAD_SAVE
+_Сохранить
+; _Save
+;
+MSG_GAD_USE
+_Применить
+; _Use
+;
+MSG_GAD_CANCEL
+_Отмена
+; _Cancel
+;
+MSG_DSC_SYSTEM
+Система
+; System
+;
+MSG_DSC_WINDOWS
+Окна
+; Windows
+;
+MSG_DSC_GROUPS
+Группы
+; Groups
+;
+MSG_DSC_BUTTONS
+Кнопки
+; Buttons
+;
+MSG_DSC_CYCLES
+Переключатели
+; Cycles
+;
+MSG_DSC_SLIDERS
+Бегунки
+; Sliders
+;
+MSG_DSC_SCROLLBARS
+Прокрутка
+; Scrollbars
+;
+MSG_DSC_LISTVIEWS
+Списки
+; Listviews
+;
+MSG_DSC_STRINGS
+Строки
+; Strings
+;
+MSG_DSC_NAVIGATION
+Навигация
+; Navigation
+;
+MSG_DSC_SPECIAL
+Специальные
+; Special
+;
+MSG_DSC_FRAMES
+Рамки
+;
+;=============================
+; zunestuff.c
+;------------
+MSG_ADJUST_PEN
+Изменить тон
+; Adjust Pen
+;
+;=============================
+; framesp.c
+;----------
+MSG_CUSTOMFRAMES
+Пользовательские рамки
+;
+;=============================
+; systemp.c
+;----------
+MSG_PUBLIC_SCREEN
+Общий экран
+; Public Screen
+;
+MSG_NAME
+Имя экрана:
+; Name:
+;
+MSG_CALL_INSPECTOR
+Настройка экранов
+; Call Inspector
+;
+MSG_POP_TO_FRONT
+Передний план:
+; Pop to front:
+;
+MSG_ICONIFICATION
+Иконификация
+; Iconification
+;
+MSG_HOTKEY
+Горячая клавиша:
+; Hotkey:
+;
+MSG_SHOW
+Отображение:
+; Show:
+;
+MSG_ICON
+Иконкой
+; Icon
+;
+MSG_MENU
+Меню
+; Menu
+;
+MSG_ON_STARTUP
+При старте:
+; On Startup:
+;
+MSG_INTERFACES
+Интерфейсы
+; Interfaces
+;
+MSG_AREXX
+Вкл. ARexx-порт:
+; ARexx:
+;
+MSG_BUBBLE_HELP
+Всплывающая подсказка
+; Bubble Help
+;
+MSG_FIRST_BUBBLE
+Первая подсказка:
+; First Bubble:
+;
+MSG_NEXT_BUBBLE
+След. подсказка:
+; Next Bubble:
+;

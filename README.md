@@ -14,7 +14,9 @@ muimaster.library has been localized only in January 2020, so you will have to w
 
 Библиотека muimaster.library была локализована только в январе 2020 года, поэтому вам придется подождать, пока она обновится в дистрибутивах для того, чтобы muimaster.catalog заработал.
 
-### Prefs/Appearance.catalog
+### Prefs/appearance.catalog
+### Prefs/boingiconbar.catalog
+### Prefs/boot.catalog
 ### System/installaros.catalog
 
 Similarly to muimaster.catalog

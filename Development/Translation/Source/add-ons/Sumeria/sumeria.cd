@@ -1,0 +1,168 @@
+;
+; $VER: sumeria.cd 19.3 (02.10.2020) - Copyright (c) Oct.2020 by aGGreSSor/CPU
+;
+; FlexCat sumeria.cd sumeria_RU.ct CATALOG sumeria.catalog NOOPTIM
+;
+;#version 0
+;#language english
+;
+;
+TX_TRY_AGAIN_1 (//)
+For the extreme folly of soft - heartedness and
+;
+TX_TRY_AGAIN_2 (//)
+the mess you would leave the city in,\nyou are hereby commanded to remain in office for\nanother ten years.
+;
+TX_TRY_AGAIN_C (//)
+considering 
+;
+TX_LUCKY_BASTARD (//)
+Hammurabi, you are either a politico-economic genius\nor just a lucky bastard. There being but one way to\nsettle the question, you are hereby requested to stay\nin office for another ten years.
+;
+TX_BEHEADED (//)
+For this extreme mismanagement you have been\ndeposed, flayed alive and publicly beheaded.\n\nMay Ashtaroth preserve your Ka.\n
+;
+TX_QUIT (//)
+\nHammurabi: I find myself unable to fulfil your wish.\nYou will have to find yourself another kingdom.
+;
+TX_BYE (//)
+\nMay Baal be with you.\n
+;
+TX_THINK_AGAIN (//)
+Hammurabi, think again. 
+;
+TX_LAND_QUANTITY (//)
+You own %d acres of land.
+;
+TX_GRAIN_QUANTITY (//)
+You have only %d bushels of grain.
+;
+TX_PEOPLE_POPULATION (//)
+But you only have %d people to tend the fields.
+;
+TX_NOW_THEN (//)
+ Now then,
+;
+TX_GRAIN (//)
+grain
+;
+TX_LAND (//)
+land
+;
+TX_UNCLEAR_COMMAND (//)
+Hammurabi, your command has not been understood!
+;
+TX_ABOUT (//)
+[Sumeria (Primos) rev.19.1, GGR (MLA) version 14 Oct 83]\n[Conversion to ANSI C: MLA, Feb 2002]\n[rev.19.3, AMiGA version: aGGreSSor/CPU, Oct 2020]\n\n
+;
+TX_HOWTO_PLAY (//)
+Do you know how to play? (Y/n) 
+;
+TX_TOO_BAD (//)
+\nToo bad!\n\nOnly AMiGA makes hints\n\no A bushel of grain provides seed for 2 acres;\no People die unless they receive 20 bushels of food per year per person;\no People are attracted to Sumeria if you up the 20 bushels/person average.
+;
+TX_DESCRIPTION (//)
+\nTry your hand at governing ancient Sumeria\nfor a ten year term of office.\nOnly a true Hammurabi survived for 42 years!
+;
+TX_REPORT (//)
+Hammurabi: I beg to report to you,
+;
+TX_IN_YEAR (//)
+In year %d BC, 
+;
+TX_NO (//)
+no
+;
+TX_DEAD_AND_NEW (//)
+ %s starved, %ld came to the city.\n
+;
+TX_PERSON (//)
+person
+;
+TX_PEOPLE (//)
+people
+;
+TX_PEOPLE_DIED (//)
+A horrible plague struck! %d people died.\n
+;
+TX_PEOPLE_NOW (//)
+Population is now %ld.\n
+;
+TX_LAND_NOW (//)
+The city owns %ld acres.\n
+;
+TX_GRAIN_GIVE (//)
+You harvested %ld bushels per acre.\n
+;
+TX_GRAIN_LOST (//)
+Rats ate %ld bushels.\n
+;
+TX_GRAIN_NOW (//)
+You now have %ld bushels in store.\n\n
+;
+TX_LAND_PRICE (//)
+Land is trading at %ld bushels per acre.\n\n
+;
+TX_HOW_LAND_BUY (//)
+How many acres do you wish to buy? 
+;
+TX_HOW_LAND_SELL (//)
+\nHow many acres do you wish to sell? 
+;
+TX_HOW_GRAIN_LOST (//)
+How many bushels do you wish to feed your people? 
+;
+TX_HOW_LAND_CULTIVATE (//)
+How many acres do you wish to plant with seed? 
+;
+TX_PEOPLE_DIED_IN_1_YEAR (//)
+\nYou starved %d people in one year!\n
+;
+TX_PEOPLE_DIED_IN_10_YEAR (//)
+In your ten year term of office %d people starved.\n
+;
+TX_STARTED_WITH (//)
+You started with %d acres per person and ended\n
+;
+TX_LAND_PER_PERSON (//)
+with %d acres per person.\n\n
+;
+TX_FINAL_HIGH (//)
+Your heavy handed performance smacks of Nabuchodonoser\nand Asurbanipal II. The surviving populace hates your\nguts and your eventual assasination is just a matter of\ntime.
+;
+TX_FINAL_BAD (//)
+Consequently you have been deposed and disgraced\nand only avoided a public punishment because\nof mitigating circumstances. While it may be\nadmitted in private that you had a rotten deal
+;
+TX_FINAL_BAD_VARIANT_1 (//)
+try explaining that to a mob looking for scape-goats.
+;
+TX_FINAL_BAD_VARIANT_2 (//)
+history is not interested in such petty excuses.
+;
+TX_FINAL_BAD_VARIANT_3 (//)
+you should have considered such occupational hazards\nbefore applying for the job.
+;
+TX_FINAL_GOOD (//)
+Your performance has been satisfactory and, in the\nperspective of history, actually quite good.
+;
+TX_FINAL_GOOD_VARIANT_1 (//)
+You may not be exactly popular, but given a good\nbody-guard there is nothing to be really worried about.
+;
+TX_FINAL_GOOD_VARIANT_2 (//)
+While not exactly loved, you are at least respected.\nWhat more can a realistic ruler ask for?
+;
+TX_FINAL_BEST (//)
+Hammurabi, your name will be remembered through the\nages to come with admiration and respect.\n\n(So you did get away with it you lucky sod!)
+;
+TX_HOWEVER (//)
+\n                               HOWEVER\n\n
+;
+TX_GAME_OVER (//)
+\n                           *** GAME OVER ***\n\n
+;
+TX_TRY_AGAIN (//)
+\n                           Try again (y/N)? 
+;
+TX_SURVIVED (//)
+\n                        *** YOU SURVIVED! ***\n\n
+;

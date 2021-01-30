@@ -1,0 +1,358 @@
+; -------------------------------------------------------------------
+; Menu Entries
+; -------------------------------------------------------------------
+;
+MSG_MENU_PROJECT (1//)
+Project
+;
+MSG_MENU_NEW (//)
+New game
+;
+MSG_MENU_OPEN (//)
+Open
+;
+MSG_MENU_OPENEPD (//)
+EPD...
+;
+MSG_MENU_OPENPGN (//)
+PGN...
+;
+MSG_MENU_SAVE (//)
+Save as
+;
+MSG_MENU_SAVEEPD (//)
+EPD...
+;
+MSG_MENU_SAVEPGN (//)
+PGN...
+;
+MSG_MENU_SETTINGS (//)
+Settings
+;
+MSG_MENU_SETTINGS_LOAD (//)
+Load...
+;
+MSG_MENU_SETTINGS_SAVE (//)
+Save
+;
+MSG_MENU_SETTINGS_SAVE_AS (//)
+Save As...
+;
+MSG_MENU_QUIT (//)
+Quit
+;
+MSG_MENU_ABOUT (//)
+About...
+;
+MSG_MENU_ABOUT_MUI (//)
+About MUI...
+;
+MSG_MENU_GAME (//)
+Game
+;
+MSG_MENU_AUTOPLAY (//)
+Autoplay
+;
+MSG_MENU_SUPERVISOR (//)
+Supervisor
+;
+MSG_MENU_SWAP (//)
+Swap sides
+;
+MSG_MENU_SWITCH (//)
+Switch sides
+;
+MSG_MENU_UNDO (//)
+Undo
+;
+MSG_MENU_REMOVE (//)
+Remove
+;
+MSG_MENU_BOOK (//)
+Book
+;
+MSG_MENU_BOOKADD (//)
+Add ...
+;
+MSG_MENU_BOOKOFF (//)
+Off
+;
+MSG_MENU_BOOKON (//)
+On
+;
+MSG_MENU_BOOKBEST (//)
+Best
+;
+MSG_MENU_BOOKWORST (//)
+Worst
+;
+MSG_MENU_BOOKRANDOM (//)
+Random
+;
+MSG_MENU_DEPTH (//)
+Search depth
+;
+MSG_MENU_DEPTH0 (//)
+Use time settings
+;
+MSG_MENU_TIME (//)
+Time settings
+;
+MSG_MENU_SHOWTHINKING (//)
+Show thinking
+;
+MSG_MENU_NULL (//)
+Null moves
+;
+MSG_MENU_USEHASH (//)
+Use hashtable
+;
+MSG_MENU_DISPLAY (//)
+Display
+;
+MSG_MENU_BOARDSIZE (//)
+Board size
+;
+MSG_MENU_BOARDSMALL (//)
+Small
+;
+MSG_MENU_BOARDMEDIUM (//)
+Medium
+;
+MSG_MENU_SC_BOARDMEDIUM (/1/1)
+2
+;
+MSG_MENU_BOARDLARGE (//)
+Large
+;
+MSG_MENU_BOARDDESIGN (//)
+Board design
+;
+MSG_MENU_PIECES (//)
+Pieces
+;
+MSG_MENU_EDITBOARD (//)
+Edit board ...
+;
+MSG_MENU_REVERSEBOARD (//)
+Reverse board
+;
+MSG_MENU_VOICE (//)
+Voice
+;
+MSG_MENU_HIDEMOVES (//)
+Hide move history
+;
+MSG_MENU_EXTRAS (//)
+Extras
+;
+MSG_MENU_EVALUATE (//)
+Evaluate
+;
+MSG_MENU_STATISTICS (//)
+Statistics
+;
+; -------------------------------------------------------------------
+; Menu Shortcuts
+; -------------------------------------------------------------------
+;
+MSG_MENU_SC_NEW (100/1/1)
+N
+;
+MSG_MENU_SC_QUIT (/1/1)
+Q
+;
+MSG_MENU_SC_AUTOPLAY (/1/1)
+A
+;
+MSG_MENU_SC_SUPERVISOR (/1/1)
+V
+;
+MSG_MENU_SC_SWAP (/1/1)
+W
+;
+MSG_MENU_SC_UNDO (/1/1)
+U
+;
+MSG_MENU_SC_REMOVE (/1/1)
+R
+;
+MSG_MENU_SC_TIME (/1/1)
+I
+;
+MSG_MENU_SC_SHOWTHINKING (/1/1)
+T
+;
+MSG_MENU_SC_BOARDSMALL (/1/1)
+1
+;
+MSG_MENU_SC_BOARDLARGE (/1/1)
+3
+;
+MSG_MENU_SC_EDITBOARD (/1/1)
+E
+;
+MSG_MENU_SC_REVERSEBOARD (/1/1)
++
+;
+MSG_MENU_SC_VOICE (//)
+V
+;
+MSG_MENU_SC_HIDEMOVES (/1/1)
+#
+;
+; -------------------------------------------------------------------
+; GUI elements
+; -------------------------------------------------------------------
+;
+MSG_MYMOVE (200//)
+My move
+;
+MSG_BESTLINE (//)
+Best line
+;
+MSG_WHITE (//)
+White
+;
+MSG_BLACK (//)
+Black
+;
+MSG_TIMESETTINGS (//)
+Time settings
+;
+MSG_MOVESIN (//)
+moves in
+;
+MSG_MINUTES (//)
+minutes
+;
+MSG_SEARCHITIME (//)
+Searchtime in sec
+;
+MSG_PROMOTEPAWN (//)
+Promote pawn to ...
+;
+MSG_STATISTICS (//)
+Statistics
+;
+MSG_STAT_INIT0 (//)
+Nodes: 0 -> 0 per sec
+;
+MSG_STAT_INIT1 (//)
+Moves: 0 -> 0 per sec
+;
+MSG_STAT_INIT2 (//)
+Score: 0 <-> 0
+;
+MSG_STAT_FORM0 (//)
+Nodes: %u -> %u per sec
+;
+MSG_STAT_FORM1 (//)
+Moves: %u -> %u per sec
+;
+MSG_STAT_FORM2 (//)
+Score: %d <-> %d
+;
+MSG_POSEVAL (//)
+Position evaluation
+;
+MSG_POSEVAL_INIT1 (//)
+Material: 0/0  Development: 0
+;
+MSG_POSEVAL_INIT2 (//)
+Pawn: 0  Knight: 0  Bishop: 0
+;
+MSG_POSEVAL_INIT3 (//)
+Rook: 0  Queen: 0  King: 0
+;
+MSG_POSEVAL_FORM1 (//)
+Material: %4d/%4d  Development: %d
+;
+MSG_POSEVAL_FORM2 (//)
+Pawn: %d  Knight: %d  Bishop: %d
+;
+MSG_POSEVAL_FORM3 (//)
+Rook: %d  Queen: %d  King: %d
+;
+MSG_POSEVAL_FORM4 (//)
+Score: %d
+;
+MSG_BOOK_OPENED (//)
+Opened existing book!
+;
+MSG_BOOK_NOTCONFORM (//)
+Book does not conform to the current format. Consider rebuilding your book.
+;
+MSG_BOOK_READPOS (//)
+Read %d book positions. Got %d hash collisions.
+;
+MSG_BOOK_NOTCREATE (//)
+Couldn't create book.
+;
+MSG_BOOK_NOTWRITE (//)
+Couldn't write to book.
+;
+MSG_BOOK_CREATENEW (//)
+Created new book!
+;
+MSG_BOOK_NOTREAD (//)
+Couldn't open book for reading
+;
+MSG_BOOK_GOTCOLLISIONS (//)
+Got %d hash collisions.
+;
+MSG_BOOK_READING (//)
+Reading opening book ...
+;
+MSG_BOOK_COLLISIONS (//)
+%d hash collisions...
+;
+MSG_COMP_LOSEBLACK (//)
+1-0: Computer loses as black
+;
+MSG_COMP_LOSEWHITE (//)
+0-1: Computer loses as white
+;
+MSG_COMP_WINBLACK (//)
+0-1: Computer wins as black
+;
+MSG_COMP_WINWHITE (//)
+1-0: Computer wins as white
+;
+MSG_STALEMATE (//)
+1/2-1/2: Stalemate
+;
+MSG_DRAW (//)
+1/2-1/2: Draw
+;
+MSG_FROMBOOK (//)
+From book.
+;
+MSG_BOARDWRONG (//)
+Board is wrong!
+;
+MSG_NOTPOSSIBLE (//)
+Not possible in supervisor mode!
+;
+MSG_SEARCHTIMESET (//)
+Searchtime set to %.1f secs.
+;
+MSG_TIMECONTROL (//)
+Time control: %d moves in %.1f secs.
+;
+MSG_EDITBOARD (//)
+Edit board
+;
+MSG_EDITBOARD_CLEAR (//)
+Clear board
+;
+MSG_OK (//)
+Ok
+;
+; -------------------------------------------------------------------
+; ERROR messages
+; -------------------------------------------------------------------
+;
+MSG_ERROR_APPLICATION_REGISTER (300//)
+Error when registering with application.library
+;

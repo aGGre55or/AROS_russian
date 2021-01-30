@@ -1,0 +1,476 @@
+## version $VER: AmiChess.catalog 2.6 (04.08.20) by aGGreSSor/CPU
+## language russian
+## codeset 2104
+;
+; -------------------------------------------------------------------
+; Menu Entries
+; -------------------------------------------------------------------
+;
+MSG_MENU_PROJECT
+Проект
+; Project
+;
+MSG_MENU_NEW
+Новая игра
+; New game
+;
+MSG_MENU_OPEN
+Открыть
+; Open
+;
+MSG_MENU_OPENEPD
+EPD...
+; EPD...
+;
+MSG_MENU_OPENPGN
+PGN...
+; PGN...
+;
+MSG_MENU_SAVE
+Сохранить как
+; Save as
+;
+MSG_MENU_SAVEEPD
+EPD...
+; EPD...
+;
+MSG_MENU_SAVEPGN
+PGN...
+; PGN...
+;
+MSG_MENU_SETTINGS
+Настройки
+; Settings
+;
+MSG_MENU_SETTINGS_LOAD
+Загрузить...
+; Load...
+;
+MSG_MENU_SETTINGS_SAVE
+Сохранить
+; Save
+;
+MSG_MENU_SETTINGS_SAVE_AS
+Сохранить как...
+; Save As...
+;
+MSG_MENU_QUIT
+Выход
+; Quit
+;
+MSG_MENU_ABOUT
+О программе...
+; About...
+;
+MSG_MENU_ABOUT_MUI
+О MUI...
+; About MUI...
+;
+MSG_MENU_GAME
+Игра
+; Game
+;
+MSG_MENU_AUTOPLAY
+Автоходы
+; Autoplay
+;
+MSG_MENU_SUPERVISOR
+Наблюдение
+; Supervisor
+;
+MSG_MENU_SWAP
+Поменять сторону
+; Swap sides
+;
+MSG_MENU_SWITCH
+Переключить сторону
+; Switch sides
+;
+MSG_MENU_UNDO
+Отмена
+; Undo
+;
+MSG_MENU_REMOVE
+Удалить
+; Remove
+;
+MSG_MENU_BOOK
+Книга
+; Book
+;
+MSG_MENU_BOOKADD
+Добавить...
+; Add ...
+;
+MSG_MENU_BOOKOFF
+Выкл.
+; Off
+;
+MSG_MENU_BOOKON
+Вкл.
+; On
+;
+MSG_MENU_BOOKBEST
+Сильные
+; Best
+;
+MSG_MENU_BOOKWORST
+Слабые
+; Worst
+;
+MSG_MENU_BOOKRANDOM
+Случайные
+; Random
+;
+MSG_MENU_DEPTH
+Глубина поиска
+; Search depth
+;
+MSG_MENU_DEPTH0
+Использовать время
+; Use time settings
+;
+MSG_MENU_TIME
+Настройки времени
+; Time settings
+;
+MSG_MENU_SHOWTHINKING
+Показ перебора
+; Show thinking
+;
+MSG_MENU_NULL
+Нулевые ходы
+; Null moves
+;
+MSG_MENU_USEHASH
+Хеш-таблицы
+; Use hashtable
+;
+MSG_MENU_DISPLAY
+Дисплей
+; Display
+;
+MSG_MENU_BOARDSIZE
+Размер доски
+; Board size
+;
+MSG_MENU_BOARDSMALL
+Мелкая
+; Small
+;
+MSG_MENU_BOARDMEDIUM
+Средняя
+; Medium
+;
+MSG_MENU_SC_BOARDMEDIUM
+2
+; 2
+;
+MSG_MENU_BOARDLARGE
+Большая
+; Large
+;
+MSG_MENU_BOARDDESIGN
+Вид доски
+; Board design
+;
+MSG_MENU_PIECES
+Фигуры
+; Pieces
+;
+MSG_MENU_EDITBOARD
+Редактор доски...
+; Edit board ...
+;
+MSG_MENU_REVERSEBOARD
+Резервная доска
+; Reverse board
+;
+MSG_MENU_VOICE
+Произнесение
+; Voice
+;
+MSG_MENU_HIDEMOVES
+Скрыть историю ходов
+; Hide move history
+;
+MSG_MENU_EXTRAS
+Дополнения
+; Extras
+;
+MSG_MENU_EVALUATE
+Оценка
+; Evaluate
+;
+MSG_MENU_STATISTICS
+Статистика
+; Statistics
+;
+; -------------------------------------------------------------------
+; Menu Shortcuts
+; -------------------------------------------------------------------
+;
+MSG_MENU_SC_NEW
+N
+; N
+;
+MSG_MENU_SC_QUIT
+Q
+; Q
+;
+MSG_MENU_SC_AUTOPLAY
+A
+; A
+;
+MSG_MENU_SC_SUPERVISOR
+V
+; V
+;
+MSG_MENU_SC_SWAP
+W
+; W
+;
+MSG_MENU_SC_UNDO
+U
+; U
+;
+MSG_MENU_SC_REMOVE
+R
+; R
+;
+MSG_MENU_SC_TIME
+I
+; I
+;
+MSG_MENU_SC_SHOWTHINKING
+T
+; T
+;
+MSG_MENU_SC_BOARDSMALL
+1
+; 1
+;
+MSG_MENU_SC_BOARDLARGE
+3
+; 3
+;
+MSG_MENU_SC_EDITBOARD
+E
+; E
+;
+MSG_MENU_SC_REVERSEBOARD
++
+; +
+;
+MSG_MENU_SC_VOICE
+V
+; V
+;
+MSG_MENU_SC_HIDEMOVES
+#
+; #
+;
+; -------------------------------------------------------------------
+; GUI elements
+; -------------------------------------------------------------------
+;
+MSG_MYMOVE
+Мой ход
+; My move
+;
+MSG_BESTLINE
+Сильная линия
+; Best line
+;
+MSG_WHITE
+Белые
+; White
+;
+MSG_BLACK
+Чёрные
+; Black
+;
+MSG_TIMESETTINGS
+Настройки времени
+; Time settings
+;
+MSG_MOVESIN
+ходов в
+; moves in
+;
+MSG_MINUTES
+минуты
+; minutes
+;
+MSG_SEARCHITIME
+Время поиска в сек.
+; Searchtime in sec
+;
+MSG_PROMOTEPAWN
+Продвинуть пешку в ...
+; Promote pawn to ...
+;
+MSG_STATISTICS
+Статистика
+; Statistics
+;
+MSG_STAT_INIT0
+Вершины: 0 -> 0 в сек.
+; Nodes: 0 -> 0 per sec
+;
+MSG_STAT_INIT1
+Ходы: 0 -> 0 в сек.
+; Moves: 0 -> 0 per sec
+;
+MSG_STAT_INIT2
+Очки: 0 <-> 0
+; Score: 0 <-> 0
+;
+MSG_STAT_FORM0
+Вершины: %u -> %u в сек.
+; Nodes: %u -> %u per sec
+;
+MSG_STAT_FORM1
+Ходы: %u -> %u в сек.
+; Moves: %u -> %u per sec
+;
+MSG_STAT_FORM2
+Очки: %d <-> %d
+; Score: %d <-> %d
+;
+MSG_POSEVAL
+Оценка позиции
+; Position evaluation
+;
+MSG_POSEVAL_INIT1
+Данные: 0/0  Разработка: 0
+; Material: 0/0  Development: 0
+;
+MSG_POSEVAL_INIT2
+Пешка: 0  Конь: 0  Слон: 0
+; Pawn: 0  Knight: 0  Bishop: 0
+;
+MSG_POSEVAL_INIT3
+Ладья: 0  Королева: 0  Король: 0
+; Rook: 0  Queen: 0  King: 0
+;
+MSG_POSEVAL_FORM1
+Данные: %4d/%4d  Разработка: %d
+; Material: %4d/%4d  Development: %d
+;
+MSG_POSEVAL_FORM2
+Пешка: %d  Конь: %d  Слон: %d
+; Pawn: %d  Knight: %d  Bishop: %d
+;
+MSG_POSEVAL_FORM3
+Ладья: %d  Королева: %d  Король: %d
+; Rook: %d  Queen: %d  King: %d
+;
+MSG_POSEVAL_FORM4
+Очки: %d
+; Score: %d
+;
+MSG_BOOK_OPENED
+Открыта существующая книга!
+; Opened existing book!
+;
+MSG_BOOK_NOTCONFORM
+Книга не соответствует текущему формату. Попробуйте восстановить вашу книгу.
+; Book does not conform to the current format. Consider rebuilding your book.
+;
+MSG_BOOK_READPOS
+Чтение %d позиций книги. Получено %d хеш-коллизий.
+; Read %d book positions. Got %d hash collisions.
+;
+MSG_BOOK_NOTCREATE
+Не могу создать книгу.
+; Couldn't create book.
+;
+MSG_BOOK_NOTWRITE
+Не могу записать в книгу.
+; Couldn't write to book.
+;
+MSG_BOOK_CREATENEW
+Создана новая книга!
+; Created new book!
+;
+MSG_BOOK_NOTREAD
+Не могу открыть книгу на чтение
+; Couldn't open book for reading
+;
+MSG_BOOK_GOTCOLLISIONS
+Получено %d хеш-коллизий.
+; Got %d hash collisions.
+;
+MSG_BOOK_READING
+Чтение открытой книги ...
+; Reading opening book ...
+;
+MSG_BOOK_COLLISIONS
+%d хеш-коллизий...
+; %d hash collisions...
+;
+MSG_COMP_LOSEBLACK
+1-0: Амига проигрывает чёрными
+; 1-0: Computer loses as black
+;
+MSG_COMP_LOSEWHITE
+0-1: Амига проигрывает белыми
+; 0-1: Computer loses as white
+;
+MSG_COMP_WINBLACK
+0-1: Амига побеждает чёрными
+; 0-1: Computer wins as black
+;
+MSG_COMP_WINWHITE
+1-0: Амига побеждает белыми
+; 1-0: Computer wins as white
+;
+MSG_STALEMATE
+1/2-1/2: Пат
+; 1/2-1/2: Stalemate
+;
+MSG_DRAW
+1/2-1/2: Ничья
+; 1/2-1/2: Draw
+;
+MSG_FROMBOOK
+Из книги.
+; From book.
+;
+MSG_BOARDWRONG
+Доска имеет ошибку!
+; Board is wrong!
+;
+MSG_NOTPOSSIBLE
+Невозможно в режиме наблюдателя!
+; Not possible in supervisor mode!
+;
+MSG_SEARCHTIMESET
+Время хода в %.1f сек.
+; Searchtime set to %.1f secs.
+;
+MSG_TIMECONTROL
+Контроль времени: %d ходов за %.1f сек.
+; Time control: %d moves in %.1f secs.
+;
+MSG_EDITBOARD
+Редактор доски
+; Edit board
+;
+MSG_EDITBOARD_CLEAR
+Очистить доску
+; Clear board
+;
+MSG_OK
+Ок
+; Ok
+;
+; -------------------------------------------------------------------
+; ERROR messages
+; -------------------------------------------------------------------
+;
+MSG_ERROR_APPLICATION_REGISTER
+Ошибка при регистрации application.library
+; Error when registering with application.library
+;

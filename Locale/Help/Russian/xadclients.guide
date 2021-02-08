@@ -1,0 +1,1368 @@
+@database xadclients.guide
+@$VER: xadclients_ru.guide 1.1 (24.02.2001)
+
+@remark CISTART
+@remark CI|Ace MS-EXE|Ace|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Ace|Ace|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|AmigaLinkLib|AmigaLinkLib|Andrew Bell|andrewb@exl.co.uk
+@remark CI|Amiga Plus Unpack|Amiga Plus Unpack|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Amiga Standard FS|Amiga Standard FS|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|AmiPack|AmiPack|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Arc|Arc|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Arj MS-EXE|Arj|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Arj|Arj|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Ar|Ar|Stuart Caie|kyzer@4u.net
+@remark CI|ASCII|ASCII|Stuart Caie|kyzer@4u.net
+@remark CI|BZip2|BZip|Stuart Caie|kyzer@4u.net
+@remark CI|BZip|BZip|Stuart Caie|kyzer@4u.net
+@remark CI|CAB MS-EXE|CAB|Stuart Caie|kyzer@4u.net
+@remark CI|CAB|CAB|Stuart Caie|kyzer@4u.net
+@remark CI|CompDisk|CompDisk|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Compress|Compress|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|COP|COP|Stuart Caie|kyzer@4u.net
+@remark CI|Cpio|Cpio|Stefan A. Haubenthal|polluks@web.de
+@remark CI|CrunchDisk|CrunchDisk|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|DImp SFX|DImp|Stuart Caie|kyzer@4u.net
+@remark CI|DImp|DImp|Stuart Caie|kyzer@4u.net
+@remark CI|DMS SFX|DMS|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|DMS|DMS|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|GZip SFX|GZip|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|GZip|GZip|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|HA|HA|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LhA MS-EXE|LhA|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LhA SFX|LhA|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LhA|LhA|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LhF|LhF|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LhPak SFX|ZoomSFX|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LhSFX|LhSFX|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LhWarp|LhWarp|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|LightFileSystem FS|LightFileSystem|Ronald van Dijk|rvandyk@worldonline.nl
+@remark CI|LZX|LZX|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Marc's DiskCruncher|Marc's DiskCruncher|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|MakeSFX 1.0|MakeSFX|Stuart Caie|kyzer@4u.net
+@remark CI|MakeSFX 1.2|MakeSFX|Stuart Caie|kyzer@4u.net
+@remark CI|Microsoft FAT FS|Microsoft FAT FS|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|MSA|MSA|Stuart Caie|kyzer@4u.net
+@remark CI|MS-TNEF|MS-TNEF|Stuart Caie|kyzer@4u.net
+@remark CI|MXM-Simple Archive SFX|ZoomSFX|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|NiteTimeGamesDos FS|NiteTimeGamesDos|Ronald van Dijk|rvandyk@worldonline.nl
+@remark CI|PackDev|PackDev|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|PackDisk|PackDisk|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|PAK|PAK|Ronald van Dijk|rvandyk@worldonline.nl
+@remark CI|PCompress PACK|PCompress PACK|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|RAR MS-EXE|RAR|Mikolaj Calusinski|bloelle@priv.gold.pl
+@remark CI|RAR|RAR|Mikolaj Calusinski|bloelle@priv.gold.pl
+@remark CI|RPM|RPM|Stuart Caie|kyzer@4u.net
+@remark CI|S-Omni|S-Omni|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|S-Pack SFX|S-Pack SFX|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|S-Pack|S-Pack|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|SanityOS FS|SanityOS FS|Stuart Caie|kyzer@4u.net
+@remark CI|Savage Compressor|Savage Compressor|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|SDS Software SFX|SDS Software SFX|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Sensi disk FS|Sensi disk FS|Ronald van Dijk|rvandyk@worldonline.nl
+@remark CI|Shrink|Shrink|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|StuffIt|StuffIt|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|SuperDuper3|SuperDuper3|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Tar|Tar|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Trackmo-DOS FS|Trackmo-DOS FS|Ronald van Dijk|rvandyk@worldonline.nl
+@remark CI|Warp|Warp|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|WinZip MS-EXE|Zip|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Wrapster|Wrapster|Stuart Caie|kyzer@4u.net
+@remark CI|xDisk|xDisk|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|xMash|xMash|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|XPK Archive|XPK Archive|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|ZAP|ZAP|Stuart Caie|kyzer@4u.net
+@remark CI|Zip MS-EXE|Zip|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Zip|Zip|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Zoom 5|Zoom|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Zoom|Zoom|Dirk Stцcker|stoecker@amigaworld.com
+@remark CI|Zoo|Zoo|Dirk Stцcker|stoecker@amigaworld.com
+@remark CIEND
+
+
+@node main "Клиенты XAD"
+
+  @{" Примечание переводчика " link Translation}
+  @{" Краткие сведения о сжатии данных " link Compression}
+
+File archivers:
+  @{" Ace                     " link Ace}  Популярный архиватор на PC
+  @{" Ace MS-EXE              " link Ace}  Самораспаковывающийся архив Ace на PC
+  @{" Amiga link library      " link AmigaLinkLib}  Линкуемые библиотеки на Amiga
+  @{" Amiga Plus Unpack       " link "Amiga Plus Unpack"}  Архиватор от старых дисков "Amiga Plus"
+  @{" AmiPack                 " link AmiPack}  Архиватор от старых дисков "Amiga Magazin"
+  @{" Ar                      " link Ar}  Архиватор под UNIX, используется для Debian
+  @{" Arc                     " link Arc}  Старый архиватор на PC
+  @{" Arj                     " link Arj}  Популярный архиватор на PC
+  @{" Arj MS-EXE              " link Arj}  Самораспаковывающийся архив Arj на PC
+@remark  @{" ASCII                   " link ASCII}  UUencode, MIME, BinHex, etc
+  @{" BZip                    " link BZip}  Предшественник BZip2
+  @{" BZip2                   " link BZip}  Популярный упаковщик под UNIX
+  @{" CAB                     " link CAB}  Архиватор Microsoft, используется для дистрибутивов
+  @{" CAB MS-EXE              " link CAB}  Самораспаковывающийся архив CAB на PC
+  @{" Compress                " link Compress}  Старый упаковщик под UNIX
+  @{" Cpio                    " link Cpio}  Архиватор под UNIX, используется в RPM
+  @{" DMS                     " link DMS}  Популярный дисковый архиватор на Amiga (архивирует и файлы)
+  @{" DMS SFX                 " link DMS}  Самораспаковывающийся архив DMS на Amiga
+  @{" GZip                    " link GZip}  Популярный многоплатформенный упаковщик
+  @{" GZip SFX                " link GZip}  Самораспаковывающийся исполняемый файл UNIX, упакованный GZip
+  @{" HA                      " link HA}  Популярный архиватор под MS-DOS
+  @{" LhA                     " link LhA}  Популярный многоплатформенный архиватор
+  @{" LhA MS-EXE              " link LhA}  Самораспаковывающийся архив LhA на PC
+  @{" LhA SFX                 " link LhA}  Самораспаковывающийся архив LhA на Amiga
+  @{" LhF                     " link LhF}  Старый архиватор на Amiga
+  @{" LhPak SFX               " link ZoomSFX}  Исполняемый файл на Amiga, использовался для распространения Zoom 5.x
+  @{" LhSFX                   " link LhSFX}  Генератор самораспаковывающихся архивов на Amiga
+  @{" LZX                     " link LZX}  Популярный архиватор на Amiga
+  @{" MakeSFX 1.0             " link MakeSFX}  Генератор самораспаковывающихся архивов на Amiga
+  @{" MakeSFX 1.2             " link MakeSFX}  Генератор самораспаковывающихся архивов на Amiga
+  @{" MS-TNEF                 " link MS-TNEF}  Формат Microsoft для вложений в электронной почте
+  @{" MXM-Simple Archive SFX  " link ZoomSFX}  Исполняемый файл на Amiga, использовался для распространения Zoom 4.1
+  @{" PAK                     " link PAK}  Генератор самораспаковывающихся архивов на Amiga
+  @{" PCompress PACK          " link "PCompress PACK"}  Старый архиватор на Amiga
+  @{" RAR                     " link RAR}  Популярный архиватор на PC
+  @{" RAR MS-EXE              " link RAR}  Самораспаковывающийся архив RAR на PC
+  @{" RPM                     " link RPM}  Популярный формат под UNIX
+  @{" S-Omni                  " link S-Omni}  Старый формат самораспаковывающихся исполняемых файлов на Amiga
+  @{" S-Pack                  " link S-Pack}  Старый архиватор на Amiga
+  @{" S-Pack SFX              " link S-Pack}  Самораспаковывающийся архив S-Pack на Amiga
+  @{" SDS Software SFX        " link "SDS Software SFX"}  Исполняемый файл на Amiga, использовался для распространения DMS 1.xx
+  @{" Shrink                  " link Shrink}  Старый архиватор на Amiga
+  @{" StuffIt                 " link StuffIt}  Популярный архиватор на Macintosh
+  @{" StuffIt 5               " link StuffIt}  Популярный архиватор на Macintosh
+  @{" StuffIt 5 MS-EXE        " link StuffIt}  Самораспаковывающийся архив StuffIt на PC
+  @{" Tar                     " link Tar}  Popular UNIX archiver
+  @{" WinZip MS-EXE           " link Zip}  Самораспаковывающийся архив Zip на PC
+  @{" Wrapster                " link Wrapster}  "Хак" Napster'а для использования архивов
+  @{" XPK Archive             " link "XPK Archive"}  Старый архиватор на Amiga
+  @{" Zip                     " link Zip}  Популярный многоплатформенный архиватор
+  @{" Zip MS-EXE              " link Zip}  Самораспаковывающийся архив Zip на PC
+  @{" Zoo                     " link "Zoo"}  Старый многоплатформенный архиватор
+
+Дисковые архиваторы:
+  @{" CompDisk                " link CompDisk}  Старый дисковый архиватор на Amiga
+  @{" COP                     " link COP}  Старый дисковый архиватор/копировщик на Amiga
+  @{" CrunchDisk              " link CrunchDisk}  Старый дисковый архиватор на Amiga
+  @{" DImp                    " link DImp}  Старый дисковый архиватор на Amiga
+  @{" DImp SFX                " link DImp}  Самораспаковывающийся архив DImp на Amiga
+  @{" DMS                     " link DMS}  Популярный дисковый архиватор на Amiga
+  @{" DMS SFX                 " link DMS}  Самораспаковывающийся архив DMS на Amiga
+  @{" LhWarp                  " link LhWarp}  Старый дисковый архиватор на Amiga
+  @{" Marc's DiskCruncher     " link "Marc's DiskCruncher"}  Старый дисковый архиватор на Amiga
+  @{" MSA                     " link MSA}  Старый дисковый архиватор на Atari ST
+  @{" PackDev                 " link PackDev}  Старый дисковый архиватор на Amiga
+  @{" PackDisk                " link PackDisk}  Старый дисковый архиватор на Amiga
+  @{" Savage Compressor       " link "Savage Compressor"}  Подделка архиватора LhA
+  @{" SuperDuper3             " link SuperDuper3}  "Буфер", использовавшийся копировщиком SuperDuper
+  @{" Warp                    " link Warp}  Старый дисковый архиватор на Amiga
+  @{" xDisk                   " link xDisk}  Старый дисковый архиватор на Amiga
+  @{" xMash                   " link xMash}  Старый дисковый архиватор на Amiga
+  @{" ZAP                     " link ZAP}  Старый дисковый архиватор на Amiga
+  @{" Zoom                    " link Zoom}  Старый дисковый архиватор на Amiga
+  @{" Zoom 5                  " link Zoom}  Старый дисковый архиватор на Amiga
+
+Файловые системы:
+  @{" Amiga Standard FS       " link "Amiga Standard FS"}  Почти все диски на Amiga
+  @{" Microsoft FAT FS        " link "Microsoft FAT FS"}  Почти все диски на PC и Atari
+  @{" LightFileSystem FS      " link "LightFileSystem FS"}  Быстрая файловая система для дисков
+  @{" NiteTime games DOS FS   " link "NiteTimeGamesDos FS"}  Некоторые игры от NiteTime
+  @{" SanityOS FS             " link "SanityOS FS"}  Некоторые демо от Sanity
+  @{" Sensi disk FS           " link "Sensi disk FS"}  Некоторые игры от Sensible Software
+  @{" Trackmo-DOS FS          " link "Trackmo-DOS FS"}  Некоторые демо от Arise
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Ace
+Клиенты: Ace, Ace MS-EXE
+Автор: Marcel Lemke (автор клиента Dirk Stцcker)
+Расширения файлов: .ACE, .EXE
+
+Это довольно новый архиватор на PC. Зашифрованные файлы не поддерживаются,
+поскольку нет кода для расшифровки. Файлы Ace версии 2 не поддерживаются,
+так как этот новый формат пока в стадии бета-тетстирования.
+
+Файлы и ссылки:
+- http://www.winace.com/
+- http://www.ibiblio.org/pub/Linux/utils/compress/unace-1.2b.tar.gz
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node AmigaLinkLib "Amiga linking library"
+Клиент: AmigaLinkLib
+Автор: ??? (автор клиента Andrew Bell)
+Расширения файлов: .LIB
+
+Этот клиент распаковывает линкуемые библиотеки на Amiga обратно в объектный
+код. Линкуемая библиотека - это просто собранные вместе отдельные программы.
+Когда создается программа, "линковщик" берет те части библиотеки, которые ему
+надо.
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "Amiga Plus Unpack"
+Клиент: Amiga Plus Unpack
+Автор: F. J. Reichert (автор клиента Dirk Stцcker)
+Расширения файлов: нет
+
+Этот клиент распаковывает файлы с дисков немецкого журнала "Amiga Plus".
+Сначала в них использовался метод -lh1- архиватора @{"LhA" link LhA}, но в 1993
+году начали использовать XPK. В 1994 году стали использовать архивы @{"LhA SFX" link LhA}.
+
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "Amiga Standard FS"
+Клиент: Amiga Standard FS
+Автор: ??? (автор клиента Dirk Stцcker)
+Расширения файлов: .ADF
+
+Этот формат на самом деле используется на большинстве дискет, а может быть
+и на жестком диске тоже. Это стандартная файловая система, используемая на
+Amiga, и этот клиент поддерживает все шесть видов: OFS, FFS, OFS International,
+FFS International, OFS Dircache и FFS Dircache.
+
+Если вы создаете или собираете файлы ADF (Amiga Disk Format), вы знаете, что
+многие из них распознаются как стандартные диски Amiga, и их содержимое можно
+просматривать по файлам. То же верно и для многих дисковых архиваторов,
+которые распаковываются в файлы ADF, например @{".DMS" link "DMS"} или @{".ADZ (.ADF.GZ)" link GZip}.
+
+Файлы и ссылки:
+- http://perso.club-internet.fr/lclevy/adflib/
+- Aminet: disk/misc/UnADF.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node AmiPack "AMI-Pack"
+Клиент: AmiPack
+Автор: Rainer Zeitler (автор клиента Dirk Stцcker)
+Расширения файлов: .AMPK
+
+Этот клиент распаковывает файлы с дискового немецкого журнала "Amiga Magazin".
+Клиент показывает высокую скорость распаковки, тогда как оригинал был
+очень медленным. Упаковщик использует три метода сжатия, все они основаны на
+алгоритме LZ.
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Ar "ar"
+Клиент: Ar
+Автор: ??? (автор клиента Stuart Caie)
+Расширения файлов: .A, .LIB, .DEB
+
+ar это "архиватор" под UNIX, теперь используется только для создания линкуемых
+библиотек скомпилированного кода. Существует много вариантов формата ar, все
+они поддерживаются этим клиентом. ar также используется в файлах Debian GNU/Linux
+(.DEB)
+
+Этот клиент по большей части основан на ar из библиотеки GNU bfd от Cygnus
+Support.
+
+Файлы и ссылки:
+- http://www.gnu.org/software/binutils/binutils.html
+- http://www.debian.org/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Arc "ARC"
+Клиент: Arc
+Автор: System Enhancement Associates (автор клиента Dirk Stцcker)
+Расширения файлов: .ARC, .ARK
+
+ARC - это старый, уже мертвый архиватор под MS-DOS archiver. @{"Zip" link Zip} его
+задавил.
+
+Этот клиент не может определять зашифрованные архивы ARC, хотя и может их
+распаковывать их, если введен верный пароль! Пароли обычно используют верхний
+регистр.
+
+Файлы и ссылки:
+- ftp://ftp.freesoftware.com/pub/unixfreeware/archive/arc-5.21e.tar.gz
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Arj
+Клиенты: Arj, Arj MS-EXE
+Автор: Robert Jung (автор клиентов Dirk Stцcker)
+Расширения файлов: .ARJ, .EXE
+
+Это популярный архиватор под MS-DOS и Windows. Он второй по популярности на PC
+после @{"Zip" link Zip}. Очень странно, что @{"LhA" link LhA} не столь
+популярен на PC, как Arj, поскольку они используют один и тот же метод сжатия,
+-lh5-.
+
+Файлы и ссылки:
+- http://www.arjsoftware.com/
+- http://www.ibiblio.org/pub/Linux/utils/compress/unarj-2.43.tar.gz
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node ASCII "ASCII encodings"
+Клиент: ASCII
+Автор: ??? (автор клиента Stuart Caie)
+Расширения файлов: .UUE, .UU, .XXE, .XX, .BTOA, .BOO, .SHIP, .HEX, .HCX, .HQX,
+           .ISH, .FSC
+
+Текстовое кодирование используется для преобразования файлов в пригодный
+для передачи через почтовые сервера вид. Обычно используется base64 или
+uuencode, но в старых письмах в конференциях Usenet встречаются файлы,
+закодированные с помощью btoa, btoa5, ship или xxencode.
+
+Этот клиент декодирует форматы:
+
+- MIME multiparts, base64 и quoted-printable (RFC 1521)
+- uuencode (стандарт)
+- xxencode (стандарт, без пробела)
+- btoa (авторы Paul Rutter и Joe Orost)
+- btoa5 (btoa, дополнен Stefan Parmark)
+- BinHex 2.0, 3.0 и 4.0 (на Macintosh, автор Yves Lempereur)
+- ship (автор Mark Adler)
+- ish (японский язык, автор keizo)
+- FSCode (на Amiga, автор Flavio Stanchina)
+
+Он просматривает файл на предмет наличия закодированных файлов, так что
+список содержания выводится довольно долго, но зато при этом игнорируются
+почтовые заголовки и разделяется uuencode и xxencode, и т.д. Также
+поддерживаются многофайловые архивы.
+
+Файлы и ссылки:
+- http://www.faqs.org/rfcs/rfc1521.html
+- http://www.faqs.org/rfcs/rfc1741.html
+- ftp://ftp.gnu.org/pub/gnu/sharutils/sharutils-4.2.1.tar.gz
+- ftp://ftp.simtel.net/pub/simtelnet/msdos/00_start/xxdecode.c
+- ftp://ftp.be.com/pub/obsolete/util/ship-1.7-dr8.tar.gz
+- ftp://contrib.redhat.com/pub/contrib/libc5/SRPMS/btoa-5.2-1.src.rpm
+- ftp://ports.jp.FreeBSD.org/pub/FreeBSD-jp/ports-jp/LOCAL_PORTS/
+  ish-1.11.tar.gz
+- Aminet: comm/net/FSCode.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node BZip "bzip and bzip2"
+Клиенты: BZip, BZip2
+Автор: Julian R. Seward (автор клиентов Stuart Caie)
+Расширения файлов: .BZ, .TBZ, .BZ2, .TBZ2
+
+bzip и bzip2 - это упаковщики, которые используют новый алгоритм Burrows-Wheeler
+с сортировкой блоков. Оба они могут упаковывать только один файл и не сохраняют
+метаданных, таких как размер и имя файла, так что нельзя узнать размер
+распакованного файла, не распаковав его целиком. Кроме того, имя распакованного
+файла зависит от имени запакованного файла. Несмотря на все это, bzip2 очень
+популярен, на многих сайтах, посвященных Linux, и используется для сжатия
+архивов @{"tar" link "Tar"}, поскольку в результате получаются файлы меньшего
+размера, чем после @{"gzip" link "GZip"}.
+
+
+Файлы и ссылки:
+- http://sourceware.cygnus.com/bzip2/
+- ftp://ftp.be.com/pub/obsolete/util/bzip.tgz
+- Aminet: util/arc/Bzip-0.21.lha
+- Aminet: util/arc/bzip2.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node CAB
+Клиенты: CAB, CAB MS-EXE
+Автор: Microsoft Corporation (автор клиентов Stuart Caie)
+Расширения файлов: .CAB, .EXE
+
+Файлы Microsoft Cabinet (CAB) используются для распространения файлов установки
+продуктов Microsoft, а также другими разработчиками под Windows. Например, все
+версии Internet Explorer распространяются в архивах CAB.
+
+Microsoft убедил своих разработчиков на Java использовать для распространения
+классов CAB, а не Jar фирмы Sun. Пользователи Java мудро отвергли это предложение.
+Jar на самом деле архив Zip, который можно распаковать почти на любом компьютере.
+Архивы CAB же можно распаковать только на компьютерах под Microsoft Windows.
+Microsoft любит "охватывать и расширять"!
+
+В CAB используются три метода сжатия - MSZIP, Quantum и LZX. MSZIP - это просто
+алгоритмы @{"PKZIP" link Zip} заголовком 'CK' вместо 'PK'. Quantum был попыткой
+Microsoft сделать упаковщик с алгоритмом LZ с большим окном и арифметическим
+кодированием. @{"LZX" link LZX} тоже упаковщик с алгоритмом LZ с большим окном,
+но с кодированием Huffman'а. По счастливой случайности Jonathan Forbes пришел
+на работу в Microsoft в 1997. Quantum был забыт вскоре после этого.
+
+Этот клиент НЕ совместим с архивами .CAB программы InstallShield. Он также не может
+читать файлы, сжатые Quantum, но это ненадолго.
+
+Файлы и ссылки:
+- http://msdn.microsoft.com/workshop/management/cab/cabdl.asp
+- http://www.kyz.uklinux.net/cabextract.php3
+- http://trill.cis.fordham.edu/~barbacha/cabinet_library/
+@endnode
+
+@remark -------------------------------------------------------------------
+@node CompDisk
+Клиент: CompDisk
+Автор: Olaf Barthel (автор клиента Dirk Stцcker)
+Расширения файлов: .CMP
+
+Это старый дисковый архиватор на Amiga, который перерос затем в @{"Zoom" link Zoom}.
+В нем используется тот же метод сжатия, что и в @{"compress" link Compress}.
+На самом деле это две разные программы, одна для создания дискового архива,
+а вторая для распаковки его обратно на диск.
+
+Файлы и ссылки:
+- Aminet: util/pack/CompDisk.lha
+@endnode
+
+@remark -------------------------------------------------------------------
+@node Compress "compress"
+Клиент: Compress
+Авторы: Spencer Thomas, Joe Orost, James A. Woods, Ken Turkowski,
+        Jim McKie, Steve Davies (автор клиента Dirk Stцcker)
+Расширения файлов: .Z, .TAZ
+
+compress(1) - это древний упаковщик файлов из мира UNIX. Он не сохраняет метаданные,
+такие как размер или имя распакованного файла. Использовался в старых архивах
+под UNIX для сжатия больших текстовых файлов или архивов @{"tar" link "Tar"}.
+Поскольку в нем может использоваться, а может и не использоваться запатентованный
+алгоритм, Free Software Foundation не стали использовать его в системе GNU.
+Для создания @{"gzip" link GZip} они использовали метод сжатия, который использовал
+Phil Katz в @{"Zip" link Zip}.
+
+С патентом все довольно странно. compress написан почти сразу после того, как
+Terry Welch опубликовал свой метод LZW, но до того, как он был запатентован.
+На самом деле  compress использует улучшенный метод LZW. Эти факты вроде бы
+защитили compress от борьбы патентов вокруг LZW, но Unisys не прекратили вытягивать
+из людей деньги с помощью своего патента. Из-за полной некомпетентности Американской
+организациии по патентам и торговым маркам IBM получили такой же патент на метод
+LZW, как и Unisys. Американские законы о патентах явно утверждают, что алгоритм
+нельзя запатентовать, независимо от его новизны и продвинутости. Проблема в том,
+что Американская организациия по патентам и торговым маркам не соблюдает свои
+собственные законы! Патент Welch'а касается только аппаратной реализации его метода
+сжатия, а не самого алгоритма, но Unisys используют свой патент на LZW чтобы
+вытягивать деньги из тех, кто использует алгоритм в программном обеспечении.
+
+Файлы и ссылки:
+- ftp://ftp.freesoftware.com/pub/unixfreeware/archive/compress-4.0.1.tar
+- ftp://ftp.debian.org/debian/dists/unstable/non-free/source/utils/
+  ncompress_4.2.4.orig.tar.gz
+@endnode
+
+@remark -------------------------------------------------------------------
+@node COP
+Клиент: COP
+Автор: Armin Sander (автор клиента Stuart Caie)
+Расширения файлов: .COP
+
+Это старый (1993 год) дисковый архиватор и копировщик на Amiga с графическим
+интерфейсом, использующий для сжатия XPK.
+
+Файлы и ссылки:
+- http://mindwalker.org/rnd/
+@endnode
+
+@remark -------------------------------------------------------------------
+@node Cpio "cpio"
+Клиент: Cpio
+Авторы: Phil Nelson, David MacKenzie, John Oleynick
+         (автор клиента Stefan Haubenthal)
+Расширения файлов: .CPIO
+
+cpio - это стандартный архиватор под UNIX, как и @{"tar" link Tar}. Его главное
+достоинство под UNIX в том, что он может копировать "специальные" файлы,
+но это нас не интересует. Формат RPM использует cpio для хранения архивов,
+так что этот клиент и @{"RPM" link RPM} отлично работают вместе.
+
+Файлы и ссылки:
+- http://www.gnu.org/software/cpio/cpio.html
+@endnode
+
+@remark -------------------------------------------------------------------
+@node CrunchDisk
+Клиент: CrunchDisk
+Автор: Klaus Deppisch (автор клиента Dirk Stцcker)
+Расширения файлов: нет
+
+CrunchDisk - это дисковый архиватор с графическим интерфейсом, который
+использует для сжатия стандартные для Amiga форматы - PowerPacker или XPK.
+Он распространялся с DiskSpare, специальным драйвером для дисков, позволяющим
+записывать 1Mb/2Mb на диск. Автор написал CrunchDisk, потому что @{"DMS" link DMS} не может
+запаковывать ничего, кроме стандартных дисков на 880Kb.
+
+Файлы и ссылки:
+- Aminet: disk/misc/Diskspr3.lha
+@endnode
+
+@remark -------------------------------------------------------------------
+@node DImp
+Клиенты: DImp, DImp SFX
+Автор: Albert-Jan Brouwer (автор клиента Stuart Caie)
+Расширения файлов: .DMP, .DEX
+
+Disk Imploder, известный также как DImp, использует алгоритм Imploder
+для сжатия стандартных дисков для Amiga. Поставляется вместе с Imploder 4.0.
+
+Файлы и ссылки:
+- Aminet: util/pack/imploder-4.0.lzh
+- Aminet: util/arc/DImpWin.lha
+@endnode
+
+@remark -------------------------------------------------------------------
+@node DMS
+Клиенты: DMS, DMS SFX
+Авторы: SDS Software, Michael Pendec, Nicholas Clarke
+        (авторы клиента Dirk Stцcker и Andre Rodrigues de la Rocha)
+Расширения файлов: .DMS, .FMS, .SFX
+
+Disk Masher - это самый знаменитый из существующих дисковых архиваторов на
+Amiga. Почти все когда-либо сделанные на Amiga дисковые архивы использовали DMS.
+Для этого не было никакой серьезной причины. Хотя большое количество архивов DMS
+было выложено на BBS и Aminet, это такой же вопрос, как и что было раньше -
+курица или яйцо. Оригинальные вырсии DMS от SDS Software были взломаны и
+распространены группой Paradox.
+
+Дисковый архив DMS распаковывается с помощью XAD в файл, известный как ADF.
+Этот файл может быть @{"standard Amiga disk" link "Amiga Standard FS"}, или игрой или демо
+в собственном формате.
+
+Также бывают архивы FMS, в которых алгоритмы DMS использовались для сжатия
+файлов. Этот клиент также позволяет распаковать из поврежденного архива столько,
+сколько можно, чего не поддерживает оригинальный DMS.
+
+В DMS используется несколько методов сжатия:
+  NOCOMP: нет сжатия
+  SIMPLE: групповое кодирование (RLE)
+  QUICK:  RLE, затем LZ с окном 256 байт
+  MEDIUM: RLE, затем медленный вариант LZSS с окном 16Kb
+  DEEP:   RLE, затем LZH с окном 16Kb и динамическим методом Huffman
+  HEAVY1: RLE, затем LZH, метод -lh5- в @{"LhA" link LhA}
+  HEAVY2: heavy1 с другими параметрами
+
+Файлы и ссылки:
+- Aminet: util/arc/xdms.lha
+- Aminet: misc/unix/undms-1.3.c.Z
+- Aminet: util/arc/dms111.run
+- Aminet: docs/misc/dms_sucks.txt
+- http://hjem.get2net.dk/nclarke/parcon/prjinfo.htm
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node GZip "gzip"
+Клиенты: GZip, GZip SFX
+Авторы: Phil Katz, Jean-Loup Gailly, Mark Adler, Peter Deutsch
+         (авторы клиента Dirk Stцcker и InfoZip)
+Расширения файлов: .GZ, .TGZ, .ADZ
+
+gzip - это замена GNU для упаковщика @{"compress" link Compress} под UNIX.
+Он стал доминирующим среди упаковщиков под UNIX, хотя сейчас это оспаривает @{"bzip2" link BZip}.
+
+В gzip используется тот же метод сжатия, что и в @{"Zip" link Zip}. Обычно
+gzip используют для сжатия архивов @{"tar" link Tar}, потому что он позволяет
+сжимать все файлы вместе, тогда как Zip сжимает файлы по отдельности. Однако
+это приводит к тому, что для того, чтобы посмотреть список файлов или распаковать
+небольшую часть архива gzip + tar, надо затратить больше усилий и времени
+по сравнению с архивом Zip.
+
+Несколько 'самораспаковывающихся архивов' под UNIX запускаются как скрипты,
+которые содержат запакованные gzip данные после конечной строки. Скрипты
+распаковываются в /tmp с помощью gzip, после чего запускается распакованный
+файл. XAD распознает почти все такие архивы по строке "#!" и заголовку gzip.
+
+Файлы и ссылки:
+- http://www.gzip.org/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node HA
+Клиент: HA
+Автор: Harri Hirvola (автор клиента Dirk Stцcker)
+Расширения файлов: .HA
+
+HA - это архиватор, использующий HSC, довольно интересный статистический
+метод сжатия.
+
+Файлы и ссылки:
+- ftp://ftp.kiarchive.ru/pub/unix/arcers/ha0999.tgz
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node LhA
+Клиенты: LhA, LhA SFX, LhA MS-EXE
+Авторы: Haruyasu Yoshizaki, Haruhiko Okumura (автор клиента Dirk Stцcker)
+Расширения файлов: .LHA, .LZH, .LZS, .EXE
+
+LhA - это самый известный архиватор на Amiga, возможно потому, что для файлов
+Aminet в основном используется LhA. Этот клиент поддерживает все форматы LhA
+и даже распаковывает поврежденные архивы, поэтому он лучше, чем версия LhA
+от Stefan Boberg.
+
+LhA раньше назывался LhArc, однако System Enhancement Associates пригрозили
+авторам-японцам судебным разбирательством, и они урезали название до LhA.
+
+Для каждого файла в архиве LhA может использоваться один из многих типов
+сжатия. С помощью xadUnFile можно посмотреть, какой метод используется:
+
+ -lzs- LZSS с окном 2kb
+ -lz4- нет сжатия
+ -lz5- LZSS с окном 4kb
+ -lhd- нет сжатия (это каталог, а не файл!)
+ -lh0- нет сжатия (может быть каталог или файл)
+ -lh1- LZH с окном 4kb, динамический Huffman
+ -lh2- LZH с окном 8kb, динамический Huffman
+ -lh3- LZH с окном 8kb, статический Huffman
+ -lh4- LZH с окном 4kb, статический канонический Huffman
+ -lh5- LZH с окном 8kb, статический канонический Huffman
+ -lh6- LZH с окном 32kb, статический канонический Huffman
+ -lh7- LZH с окном 64kb, статический канонический Huffman
+
+Чем больше окно, тем лучше сжимаются файлы, размер которых больше окна. Кроме
+того, статический Huffman лучше динамического, да и канонические методы Huffman
+тоже позволяют сохранить пару байт. Чаще используется формат -lh5-, который
+используют также @{"Arj" link Arj} и @{"Zoo" link Zoo}.
+
+Файлы и ссылки:
+- http://freshmeat.net/projects/lhaforunix/
+- http://www2m.biglobe.ne.jp/~dolphin/lha/lha-unix.htm
+- http://www.matsusaka-u.ac.jp/~okumura/compression/history.html
+- http://members.aol.com/DuckGroup/lha_comp.html
+- http://lha.warped.com/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node LhF
+Клиент: LhF
+Автор: Stefan Pampin (автор клиента Dirk Stцcker)
+Расширения файлов: .LHF
+
+Это малоизвестный формат архивов.
+
+Файлы и ссылки:
+- Aminet: util/dir/Lhf.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node LhSFX
+Клиент: LhSFX
+Автор: Ralf Thanner, Mike Kennedy (автор клиента Dirk Stцcker)
+Расширения файлов: .SFX
+
+Это простой архиватор, создающий исполняемый файл для Amiga. При запуске
+такой файл распаковывается в текущий каталог. В нем используется алгоритм LH
+от Holger P. Krekel и Olaf Barthel, который очень схож с -lh1- в @{"LhA" link LhA}.
+
+Файлы и ссылки:
+- Aminet: util/arc/LhSFX.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node LhWarp
+Клиент: LhWarp
+Автор: Jonathan Forbes (автор клиента Dirk Stцcker)
+Расширения файлов: .LHW
+
+Это старый дисковый архиватор на Amiga.
+
+Каждую дорожку в архиве можно запаковать разным методом сжатия. Методы могут
+быть такими:
+
+ Freeze:   Почти как -lh1- в @{"LhA" link LhA}.
+ Squeeze:  Почти как squeeze в @{"ARC" link ARC}.
+ Vaporize: 14-битный @{"Compress" link Compress}.
+
+Файлы и ссылки:
+- Aminet: util/arc/lhwarp-1.40.lzh
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "LightFileSystem FS"
+Клиент: LightFileSystem FS
+Авторы: Markku Vдhдaho, Terje Bergstrцm (автор клиента Ronald van Dijk)
+Расширения файлов: нет
+
+LFS - это программа на Amiga, которая позволяет записывать файлы быстрее,
+чем при обычном копировании на дискету обычного для Amiga формата.
+
+Файлы и ссылки:
+- http://www.amiga-stuff.com/fs-creators-download.html
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node LZX
+Клиент: LZX
+Авторы: Jonathan Forbes и Tomi Poutanen (автор клиента Dirk Stцcker
+        и Dave Tritscher)
+Расширения файлов: .LZX
+
+Очень популярный архиватор на Amiga. Известен тем, что он гораздо быстрее и
+лучше сжимает файлы, чем @{"LhA" link LhA} от Stefan Boberg. В нем используется
+слегка измененный алгоритм LZH с большим окном (32kb вместо 8kb в LhA), но
+больше всего он выигрывает от объединения файлов, когда файлы одного типа
+сжимаются как один. Именно поэтому @{"tar" link Tar} + @{"gzip" link GZip} дают
+лучший результат, чем @{"Zip" link Zip}, хотя алгоритм используется один и тот же.
+
+В 1990-х годах Jonathan Forbes писал быстрые распаковщики для LhA. В 1997 он
+ушел работать в Microsoft и использовал LZX для создания формата @{"CAB" link CAB}.
+
+В LZX есть ошибка 2000 года. Начиная с 1 января 2000 года он создает архив с
+неправильными датами. Есть два патча, котрые это исправляют. Один написал
+Dr.Titus из России. Он оставил даты, которые сохраняет LZX, до 2006 года,
+но исправил их вывод при распаковке и просмотре списка файлов. Поэтому архивы,
+созданные неисправленным LZX, правильно распаковываются исправленным. Второй патч
+сделал Mikolaj Calusinski, он исправляет даты во всех случаях. Проблема только
+в том, что XAD не может определить, был ли архив создан неисправленным LZX,
+эмулириующим неисправленный LZX от Dr.Titus или исправленным.
+
+Файлы и ссылки:
+- Aminet: misc/unix/unlzx.c.Z
+- Aminet: util/arc/lzx121r1.lha
+- Aminet: util/arc/lzxkeyfile.lha
+- Aminet: util/arc/LZX_Y2Kfix.lha
+- Aminet: util/arc/LZX121r_pch.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node MakeSFX
+Клиенты: MakeSFX 1.0, MakeSFX 1.2
+Автор: Stuart Caie (автор клиента Stuart Caie)
+Расширения файлов: .EXE
+
+Это простой архиватор, который создает исполняемый файл для Amiga. Вообще-то,
+это скрипт для AmigaDOS, который создает исходник на ассемблере и затем
+вызывает компилятор. MakeSFX 1.2 позволяет добавить еще один скрипт, который
+будет выполнен после распаковки, XAD всегда называет его AutoRun.script.
+
+Файлы и ссылки:
+- Aminet: util/arc/MakeSFX.lha
+- http://www.amiga-stuff.com/files/archivers/MakeSFX.lha
+- http://www.amiga-stuff.com/files/archivers/MakeSFX_13.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "Marc's DiskCruncher"
+Клиент: Marc's DiskCruncher
+Автор: Marko Pozarnik (автор клиента Dirk Stцcker)
+Расширения файлов: .MDC
+
+Это старый дисковый архиватор для Amiga, использующий XPK.
+
+Файлы и ссылки:
+- Aminet: util/arc/MDCV1.43.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "Microsoft FAT FS"
+Клиент: Microsoft FAT FS
+Автор: ??? (автор клиента Dirk Stцcker)
+Расширения файлов: нет
+
+Это файловая система, которая используется на всех дисках PC и Atari ST.
+Клиент позволяет просматривать файлы на образе дискеты с PC.
+
+Файлы и ссылки:
+- http://mtools.linux.lu/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node MSA "Magic Shadow Archiver"
+Клиент: MSA
+Автор: Magic Shadow (автор клиента Stuart Caie)
+Расширения файлов: .MSA
+
+Это старый дисковый архиватор для Atari ST. Если распаковать архив MSA,
+получится образ диска ".ST", который можно использовать с эмуляторами
+Atari ST. Образ также может быть в формате @{"FAT FS" link "Microsoft FAT FS"}.
+
+Файлы и ссылки:
+- http://www.jetman.dircon.co.uk/st/
+- http://lgd.fatal-design.com/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node MS-TNEF
+Клиент: MS-TNEF
+Автор: Microsoft Corporation (авторы клиента Stuart Caie и Mark Simpson)
+Расширения файлов: нет (обычно называется WINMAIL.DAT)
+
+У Microsoft своя собственная система электронной почты, которая называется
+Exchange, и которую они предлагают компаниям использовать для своих локальных
+сетей. В этой системе используется формат TNEF, что расщифровывается как
+Transport Neutral Encapsulation Format (независимый от передачи формат
+инкапсуляции).
+
+Когда сообщения из локальной сети компании попадают в Интернет, сервер
+Exchange обычно преобразовывает этот формат в стандартый формат электронной
+почты. Правда, если сервер Exchange настроен неправильно, то он посылает
+сообщения с секцией WINMAIL.DAT в UUE-коде или секцией MIME application/ms-tnef.
+
+Если сохранить вложение TNEF из почтовой программы и открыть его с помощью XAD,
+то будет видно файлы, которые прилагались к этому сообщению.
+
+Файлы и ссылки:
+- http://support.microsoft.com/support/kb/articles/Q136/2/04.asp
+- http://world.std.com/~damned/software.html
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "NiteTimeGamesDos FS" "NiteTime games DOS"
+Клиент: NiteTimeGameDos FS
+Автор: ??? (автор клиента Ronald van Dijk)
+Расширения файлов: нет
+
+Это файловая система, которая использовалась в играх от NiteTime, например Mean
+Arenas и Premier Manager 3.
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node PackDev
+Клиент: PackDev
+Автор: Christian Wasner (автор клиента Dirk Stцcker)
+Расширения файлов: .PKD
+
+Это старый дисковый архиватор для Amiga, использующий XPK.
+
+Файлы и ссылки:
+- Aminet: util/arc/PackDev1_9.lha
+- Aminet: util/arc/Packdev1_9src.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node PackDisk
+Клиент: PackDisk
+Автор: Edgar M. Vigdal (автор клиента Dirk Stцcker)
+Расширения файлов: нет
+
+Это старый дисковый архиватор для Amiga, использующий XPK.
+
+Файлы и ссылки:
+- Aminet: util/arc/PackDisk11.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node PAK
+Клиент: PAK
+Автор: Mark Riley (автор клиента Ronald van Dijk)
+Расширения файлов: .PAK
+
+Это простой архиватор, который создавал исполняемый файл для Amiga. Запуск
+этого файла приводил к распаковке архива в текущий каталог. Архиватор
+использовал только метод Huffman.
+
+Парочка фактов из истории PAK: версия 1.0 распространялась в 1987 году как
+shareware за $10, и он округляет размер файлов до кратного 1024, так что
+они проходят по x- и y-модему нетронутыми.
+
+Файлы и ссылки:
+- http://cereal.mv.com/cereal/amigautl/filesbbs.html
+- http://cereal.mv.com/cereal/amigautl/PAK.PAK
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "PCompress PACK"
+Клиент: PCompress PACK
+Автор: Chas A. Wyndham (автор клиента Dirk Stцcker)
+Расширения файлов: .PACK
+
+Это архив, создаваемый старой многоцелевой программой сжатия для Amiga.
+В нем используется алгоритм LH от Holger P. Krekel и Olaf Barthel, что
+почти тоже самое, что и -lh1- в @{"LhA" link LhA}.
+
+Файлы и ссылки:
+- ftp://ftp.funet.fi/pub/amiga/fish/801-900/ff884/P-Compress.lha
+@endnode
+
+@remark -------------------------------------------------------------------
+@node RAR
+Клиенты: RAR, RAR MS-EXE
+Автор: Eugene Roshal (автор клиента Mikolaj Calusinski)
+Расширения файлов: .RAR, .EXE
+
+Это знаменитый многоплатформенный архиватор.
+
+Файлы и ссылки:
+- http://www.rararchiver.com/
+- http://www.rarsoft.com/
+- http://www.rar.de/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node RPM
+Клиент: RPM
+Автор: ??? (автор клиента Stuart Caie)
+Расширения файлов: .RPM
+
+Эта система упаковки сначала использовалась в RedHat Linux, а затем и в других
+архивах Linux. Она содержит две вещи: первое - описание архива, т.е. его имя,
+ключевые слова, версию, названия программ, необходимых для установки и т.д.
+Затем идет архив @{"cpio" link Cpio}, сжатый с помощью @{"gzip" link GZip}.
+Этот клиент снимает первый слой, оставляя только архив @{"cpio" link Cpio}.
+
+Файлы и ссылки:
+- http://www.rpm.org/
+- http://rpmfind.net/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node S-Omni
+Клиент: S-Omni
+Автор: Chas A. Wyndham (автор клиента Dirk Stцcker)
+Расширения файлов: .SE
+
+Это программа для Amiga, которая может сохранять файлы в одном исполняемом
+файле, который при запуске распаковывает их и выполняет указанные команды.
+
+Файлы и ссылки:
+- Aminet: util/pack/S-Omni.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node S-Pack
+Клиенты: S-Pack, S-Pack SFX
+Автор: Chas A. Wyndham (автор клиента Dirk Stцcker)
+Расширения файлов: .PACK, .SE
+
+S-Pack - это старый дисковый и файловый архиватор с графическим интерфейсом,
+использующий тот же алгоритм, что и @{"Shrink" link Shrink}.
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "SanityOS FS"
+Клиент: SanityOS FS
+Автор: Dпrk Ohlerich (автор клиента Stuart Caie)
+Расширения файлов: нет
+
+Эта файловая система испоьзовалась во многих trackmo от Sanity.
+
+Файлы и ссылки:
+- Aminet: demo/aga/Roots_Final.dms
+- Aminet: demo/aga/sanity_roots.dms
+- Aminet: demo/mega/Sanity.Arte-a.dms
+- Aminet: demo/mega/Sanity.Arte-b.dms
+- Aminet: demo/track/Jesterday.dms
+- ftp://ftp.funet.fi/pub/amiga/demos/Sanity/Sanity.WorldOfCommodore.dms
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "Savage Compressor"
+Клиент: Savage Compressor
+Автор: Stefan Boberg, украден Markus Zeller (автор клиента Dirk Stцcker)
+Расширения файлов: .SVG
+
+Savage Compressor был весьма 'наглой' программой. Чтобы запаковать или
+распаковать один диск, ему нужно 2Mb памяти, поскольку он считывал образ
+диска на RAM disk, затем записывал туда же взломанную версию @{"LhA" link LhA}
+от Stefan Boberg и запускал ее. В файлах в качестве метода сжатия указывался
+*SVG* вместо -lh5-.
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "SDS Software SFX"
+Клиент: SDS Software SFX
+Автор: SDS Software (автор клиента Dirk Stцcker)
+Расширения файлов: .RUN
+
+Этот формат использовался в продуктах SDS Software. Сам архиватор так и не был
+выпущен. Используемый метод сжатия такой же, как и в режиме среднего сжатия
+в @{"DMS" link DMS}.
+
+Файлы и ссылки:
+- Aminet: util/arc/dms111.run
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "Sensi disk FS"
+Клиент: Sensi disk FS
+Автор: Sensible Software (автор клиента Ronald van Dijk)
+Расширения файлов: нет
+
+Этот клиент читает файлы из образов игр от Sensible Software, например Cannon
+Fodder, Sensible Soccer и Cannon Soccer. К сожалению, он работает только с
+пиратскими копиями, а не с оригинальными дисками, которые защищены от
+копирования.
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Shrink
+Клиент: Shrink
+Автор: Matthias Meixner (автор клиента Dirk Stцcker)
+Расширения файлов: .SHR
+
+Это старый архиватор для Amiga, который в основном знаменит тем, что очень
+медленно работает на 68000. В нем используется метод LZ с окном 64k и
+арифметическим кодированием. Это была также попытка создать формат архива,
+который мог бы использовать более одного архиватора - IFF CDAF - но она
+не удалась. Matthias потом превратил IFF CDAF в @{"XPK" link "XPK Archive"}.
+
+Файлы и ссылки:
+- Aminet: util/arc/shrink.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node StuffIt
+Клиенты: StuffIt, StuffIt 5, Stuffit 5 MS-SFX
+Автор: Aladdin Software (автор клиента Dirk Stцcker)
+Расширения файлов: .SIT
+
+StuffIt - это основной архиватор для Apple Mac, с тех пор как давным давно
+выиграл у Compact Pro и прочих аналогичных программ для Mac.
+
+Aladdin, похоже, думает так же, как и Microsoft: все, что не представляет
+интерес в финансовом смысле, не считается. Они решили, что "программа
+StuffIt® - это всемирный стандарт для сжатия файлов", но так и не выдали
+спецификаций, которые необходимы для 'всемирного стандарта'. На самом деле,
+большая часть файлов на Macintosh заархивированы с помощью StuffIt, но
+только недавно они выпустили распаковщики под Microsoft Windows и Red Hat
+(не Linux, просто Red Hat), чтобы можно было распаковать файлы и на других
+платформах. Кроме того, они также ожидают патенты на некоторые части из
+StuffIt 6, так что будьте осторожны.
+
+Из-за такой ситуации с StuffIt, этот клиент может распаковывать только
+небольшую часть файлов, архивированных StuffIt, как правило это только
+очень старые файлы.
+
+- http://www.aladdinsys.com/expander/
+- http://www.ibiblio.org/pub/Linux/utils/compress/macutils.tar.gz
+- ftp://ftp.aladdinsys.com/pub/mac/Stuffit_Expander/stuffit_expander_60.bin
+- ftp://ftp.aladdinsys.com/pub/mac/DropStuff/aladdin_dropstuff_60_instal.bin
+- ftp://ftp.aladdinsys.com:21/pub/mac/StuffIt_Engine_SDK/stuffit_sdk_551.bin
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node SuperDuper3
+Клиент: SuperDuper3
+Автор: Sebastian Vigna (автор клиента Dirk Stцcker)
+Расширения файлов: нет
+
+SuperDuper3 на самом деле просто копировщик дисков. Этот клиент позволяет
+читать его буфер с "винчестера", который представляет собой образ копируемого
+диска.
+
+Файлы и ссылки:
+- Aminet: disk/misc/SD3V13.lha           
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Tar "tar"
+Клиент: Tar
+Автор: ??? (автор клиента Dirk Stцcker)
+Расширения файлов: .TAR
+
+Самая популярная программа для создания архивов под UNIX. Название
+расшифровывается как "Tape ARchiver" (архиватор для ленты). Почти всегда
+используется вместе с другим упаковщиком, @{"compress" link Compress}, @{"gzip" link GZip} или @{"bzip2" link BZip}.
+
+XAD не позволяет распаковать tar и gzip за один раз, приходится делать два
+прохода. Это вполне допустимо, поскольку в противном случае пришлось бы
+распаковать архив, чтобы получить список файлов, содержащихся в архиве,
+и затем еще раз, чтобы распаковать сами файлы.
+
+Файлы и ссылки:
+- http://www.gnu.org/software/tar/tar.html
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "Trackmo-DOS FS"
+Клиент: Trackmo-DOS FS
+Автор: Emmanuel Marty (автор клиента Ronald van Dijk)
+Расширения файлов: нет
+
+Trackmo-DOS - программа, которая позволяет кодерам писать демо, не заботясь
+о процедурах загрузки, она создает простую файловую систему и системный монитор.
+Она исполользовалась в демо "Pure Style" и "Smells like Chanel Nє5" от Arise.
+
+Файлы и ссылки:
+- http://www.amiga-stuff.com/fs-creators-download.html
+- Aminet: demo/track/PureStyle.lha
+- Aminet: demo/disk/No5_aga.dms
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Warp
+Клиент: Warp
+Автор: SDS software (автор клиента Dirk Stoecker)
+Расширения файлов: .WRP
+
+Warp - двоюродный брат @{"DMS" link DMS}. Его преимущество, в основном для
+пиратов, в том, что он может читать и писать как стандартный для Amiga формат
+дисков, так и диски по дорожкам.
+
+Файлы и ссылки:
+- Aminet: util/arc/warp-1.11.lzh
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Wrapster
+Клиент: Wrapster
+Автор: ??? (автор клиента Stuart Caie)
+Расширения файлов: .MP3
+
+Napster - это служба в Интернет, которая позволяет людям обмениваться
+файлами MP3. Однако, некоторые подумали, что неплохо бы обмениваться и
+другими файлами, не только MP3. Так появился Wrapster - формат, который
+выглядит как MP3, но на самом деле может быть чем угодно.
+
+Файлы Wrapster можно получать только через серверы OpenNap, поскольку
+официальные серверы Napster не позволяют этого. Главная причина, видимо,
+в том, что Napster, Inc. хочет быть известной только в отношении обмена
+музыкой, тогда как большая часть архивов Wrapster либо порнография (pr0n),
+либо нелегальные копии коммерческого программного обеспечения (warez).
+
+Файлы и ссылки:
+- http://members.fortunecity.com/wrapster/
+- http://www.napster.com/
+- http://www.napigator.org/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node xDisk
+Клиент: xDisk
+Автор: Oliver Wagner (автор клиента Dirk Stцcker)
+Расширения файлов: .XDS
+
+Это старый дисковый архиватор для Amiga, использующий XPK. Распространялся
+только с немецким журналом "Amiga Plus".
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node xMash
+Клиент: xMash
+Автор: Dominic Clifton (автор клиента Dirk Stцcker)
+Расширения файлов: .XMS
+
+Это старый дисковый архиватор для Amiga, использующий XPK.
+
+Файлы и ссылки:
+- Aminet: util/pack/lsdxms12.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node "XPK Archive"
+Клиент: XPK Archive 
+Автор: Matthias Meixner (автор клиента Dirk Stцcker)
+Расширения файлов: .XPK
+
+Это расширение системы XPK для Amiga, которая позволяла программам использовать
+библиотеку xpkarchive.library для чтения и записи архивов, использующих 
+упаковщики XPK. В нем использовался тот же формат IFF CDAF, что и для @{"Shrink" link Shrink},
+может быть, поэтому она и не получила развития?
+
+Файлы и ссылки:
+- Aminet: util/arc/XpkArchivePack.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node ZAP
+Клиент: ZAP
+Автор: GREMLIN of MAYHEM (автор клиента Stuart Caie)
+Расширения файлов: .ZAP
+
+Это старый дисковый архиватор для Amiga. Он позволял архивировать диски,
+используя алгоритм ByteKiller (вариант LZ), очень медленный при сжатии,
+но зато ZAP использовал многозадачность, поэтому чтение или запись на диск
+происходили во время сжатия или распаковки, что было очень хорошей идеей.
+
+Файлы и ссылки:
+- Aminet: util/arc/zap-1.41.lzh
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Zip
+Клиенты: Zip, Zip MS-EXE, WinZip MS-EXE
+Автор: Phil Katz (автор клиента Dirk Stцcker и InfoZip team)
+Расширения файлов: .ZIP, .EXE
+
+Это самый знаменитый архиватор во всем мире. Для PC это до сих пор ведущий
+формат, несмотря на наличие гораздо более хороших архиваторов. Его
+вездесущность объясняется тем, что алгоритмы сжатия и сам формат является
+бесплатным, их может использовать каждый, но никто не может их запатентовать.
+
+PKZIP стал таким популярным благодаря - или, скорее, вопреки - спорам
+System Enhancement Associates в 1989 году. Они взяли несколько знаменитых
+алгоритмов сжатия от Abraham Lempel, Jacob Ziv и David Huffman и на их основе
+создали архиватор "ARC" . Некоторое время он был очень популярен. Однако,
+Phil Katz создал собственный распространяемый бесплатно архиватор PKARC,
+работавший быстрее и лучше, чем ARC, но использовавший тот же формат.
+
+Вместо того, чтобы написать еще более хороший архиватор, SEA решили
+засудить Phil'а за нарушение авторских прав и торговой марки. В конце концов,
+решение было таким: Phil не имел права писать архиватор, совместимый с ARC.
+Поэтому Phil написал еще один архиватор, PKZIP, который был еще лучше. Он
+сделал алгоритмы, формат и название бесплатными. BBS переархивировали свои
+архвивы из ARC в ZIP, и с тех пор никто не слышал про SEA или их архиватор ARC,
+но миллионы пользуются Zip с его хорошим сжатием данных.
+
+Файлы и ссылки:
+- http://home.att.net/~robertdunn/RIPKatz.html
+- http://www.info-zip.org/
+- http://www.pkware.com/
+- http://www.winzip.com/
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Zoo
+Клиент: Zoo
+Автор: Rahul Dhesi (автор клиента Dirk Stцcker)
+Расширения файлов: .ZOO
+
+Этот архиватор был популярен на многих системах, пока его не вытеснили
+@{"LhA" link LhA} и @{"Zip" link Zip}. Zoo использует тот же формат сжатия
+-lh5-, что и LhA, но LhA делает это быстрее и лучше.
+
+Файлы и ссылки:
+- Aminet: misc/unix/zoo-2.10.tar.Z
+- ftp://ftp.freesoftware.com/pub/unixfreeware/archive/zoo-2.10.1.tar.gz
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Zoom
+Клиенты: Zoom, Zoom 5
+Автор: Olaf Barthel (автор клиента Dirk Stцcker)
+Расширения файлов: .ZOM
+
+Это старый дисковый архиватор для Amiga с графическим интерфейсом. Он
+использует алгоритм LH от Holger P. Krekel и Olaf Barthel, который почти
+одно и тоже с алгоритмом -lh1- в @{"LhA" link LhA}.
+
+Файлы и ссылки:
+- Aminet: util/arc/Zoom_5.4.lha
+- http://exotica.fix.no/utils/crunchers.html (внизу страницы, раздел "Zoom")
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node ZoomSFX "Zoom distribution formats"
+Клиенты: LhPak SFX, MXM-Simple Archive SFX
+Автор: Olaf Barthel (автор клиента Dirk Stцcker)
+Расширения файлов: .RUN
+
+Архивы @{"Zoom" link Zoom} часто были самораспаковывающиеся. Этот клиент
+просто распаковывает такие архивы. Формат "MXM-Simple Archive" использовался
+в Zoom 4.1, а формат "LhPak" использовался с Zoom 5.x. Сам архиватор не
+распространялся.
+
+В LhPak используется алгоритм LH от Holger P. Krekel и Olaf Barthel, который
+почти одно и тоже с алгоритмом -lh1- в @{"LhA" link LhA}.
+
+Файлы и ссылки:
+- Aminet: util/arc/Zoom_5.4.lha
+@endnode
+
+
+@remark -------------------------------------------------------------------
+@node Compression "Краткие сведения о сжатии данных"
+Назначение сжатия данных состоит в том, чтобы уменьшать объем этих данных.
+Кроме того, архивация предоставляет удобный способ хранения данных, часто, но
+не обязательно использующий сжатие.
+
+Существует множество способов сжимать файлы. Эти способы называют методами или
+алгоритмами. Ссылки на информацию по сжатию см. на http://dogma.net/DataCompression/
+
+Кроме того, представляет интерес FAQ по сжатию - см.
+ftp://rtfm.mit.edu/pub/usenet-by-hierarchy/comp/compression/
+
+
+Вот краткое описание методов сжатия, используемых в ваших любимых архиваторах:
+
+@{b}- Run Length Encoding (групповое кодирование), RLE -@{ub}
+
+Это самый простой способ сжатия. В нем испольузется специальный код, означающий
+"этот байт повторяется столько-то раз". Хорошо работает с исполняемыми файлами,
+так как в них часто есть большие участки из повторяющихся байтов, но плохо
+работает практически со всем остальным.
+
+@{b}- LZ, Huffman, LZH -@{ub}
+
+Почти все архиваторы используют метод сжатия LZ, а затем кодирование Huffman'а.
+Это называется LZ-H или LZH.
+
+Алгоритм LZ создали Abraham Lempel и Jacob Ziv в 1977 году. Он ищет повторяющиеся
+участки данных, например если я напишу "толпой на водопой", слог "пой" в "водопой"
+заменится на код, указывающий на предыдущий "пой" в слове "толпой".
+
+Кодирование Huffman'а также известно как "избыточное кодирование", так как оно
+увеличивает среднюю избыточность файла, убирая множество предсказуемых частей.
+Оно ищет символы фиксированного размера и делает часто встречающиеся символы
+меньше за счет того, что делает редко встречающиеся символы больше. Существует
+два вида кодирования Huffman'а - адаптивный, когда дерево часто встречающихся
+символов постоянно обновляется, и статический, когда большие куски данных
+сжимаются за один раз с одним и тем же деревом. Статическое кодирование обычно
+лучше, но требует больше памяти.
+
+@{b}- арифметическое кодирование -@{ub}
+
+Это современная альтернатива кодированию Huffman'а, в нем также используется
+переменный размер для представления каждого фиксированного символа. Однако,
+Huffman использует не менее одного бита на символ, так что 'AAAA' кодируется
+в 4 бита: 0000. Арифметическое кодирование использует дробные части отдельных
+битов! Поэтому 4 символа могут обозначаться одним битом, по 1/4 бита на символ!
+Этот метод, как и метод Huffman'а, был расширен, так что арифметически кодируемый
+символ не обязательно один символ. Использующие арфиметическое кодирование методы
+обычно называют 'статистическим сжатием', такие как PPM, моделирование Маркова и HSC.
+
+@{b}- блочная сортировка, BWT -@{ub}
+
+BWT, Burrows-Wheeler Transform (преобразование Burrows'а-Wheeler'а), названное
+по имени Mike Burrows и David Wheeler, или блочная сортировка, это совершено
+новый метод сжатия. Он переставляет символы в файле в другом порядке, более
+подходящем для сжатия. Затем результат и необходимые перестановки сжимаются
+с помощью метода Huffman'а или арифметического кодирования, и получается,
+что эффективность такого метода выше, чем при сжатии с помощью метода LZ.
+@endnode
+
+@remark -------------------------------------------------------------------
+@node Translation "Примечание переводчика"
+Это перевод документации по клиентам XAD, написанной Kyzer/CSG <kyzer@4u.net>.
+Оригинал можно взять на Аминете в /docs/hyper/xadclients.lha.
+Иностранные фамилии я не перевожу принципиально ;)
+Со всеми замечаниями обращайтесь - Андрей Бояринцев <ntrs@redline.ru>
+http://come.to/lkr/
+
+Спасибо:
+ - Kyzer/CSG <kyzer@4u.net> за то, что написал оригинал
+ - Ефим Шувиков, http://www.amiga.org.ru/ за вычитывание и замечания
+
+Много интересной информации по сжатию и архиваторам можно посмотреть на
+русскоязычном сайте http://arctest.narod.ru/
+
+@endnode

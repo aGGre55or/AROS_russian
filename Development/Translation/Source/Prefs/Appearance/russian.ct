@@ -1,4 +1,4 @@
-## version $VER: Appearance.catalog 2.1 (01.01.2021)
+## version $VER: Appearance.catalog 2.2 (12.02.2021)
 ## language russian
 ## codeset 2104
 ;
@@ -28,12 +28,19 @@ MSG_SELECTEDTHEME
 ; Theme:
 ;
 MSG_ENABLEZUNEPREFS
-Принять настройки Zune?
-; Inherit Zune Configuration?
+Заменить текущие настройки Zune?
 ;
 MSG_ENABLEWANDPREFS
-Принять настройки Wanderer?
-; Inherit Wanderer Configuration?
+Заменить текущие настройки Wanderer?
+;
+MSG_ENABLEPALETTEPREFS
+Заменить текущие настройки Palette?
+;
+MSG_ENABLEFONTPREFS
+Заменить текущие настройки Font?
+;
+MSG_ENABLEPOINTERPREFS
+Заменить текущие настройки Pointer?
 ;
 MSG_SEC_THEMING
 Темы

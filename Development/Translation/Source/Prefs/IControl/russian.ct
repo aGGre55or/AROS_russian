@@ -56,7 +56,7 @@ MSG_PUBLIC_SCREENS
 ; Public Screens
 ;
 MSG_FRONTMOST_DEFAULT
-Общий экран на переднем плане:
+Передний план по умолчанию:
 ; Frontmost set as default public screen:
 ;
 MSG_OFFSCREEN_DESC
@@ -72,34 +72,34 @@ MSG_DRAG
 ; Screen Dragging
 ;
 MSG_DRAG_BOUNDS
-До границ монитора...
+Не таскать за границы монитора...
 ; Limit dragging to Displays bounds...
 ;
 MSG_BOUND_LEFT_DRAG
-Не таскать влево
+за левый край
 ; Bound drag in left direction
 ;
 MSG_BOUND_RIGHT_DRAG
-Не таскать вправо
+за правый край
 ; Bound drag in right direction
 ;
 MSG_BOUND_TOP_DRAG
-Не таскать вверх
+за верхний край
 ; Bound drag in top direction
 ;
 MSG_BOUND_BOTTOM_DRAG
-Не таскать вниз
+за нижний край
 ; Bound drag in bottom direction
 ;
 MSG_META_DRAG
-Клавиши перетаскивания
+Комбинация клавиш
 ; Drag keys
 ;
 MSG_MENUS_STICKY
-Не закрывать
+Залипание
 ; Sticky
 ;
 MSG_MENUS_TITLEPOPUP
-Выпадающее меню в заголовке
+Выпадающее меню заголовка
 ; Pull-Down on Screen Title
 ;

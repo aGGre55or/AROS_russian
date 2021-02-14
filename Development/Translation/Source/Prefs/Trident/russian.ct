@@ -931,7 +931,7 @@ MSG_ACTION_CFG_REMOVE_HELP
 ; You are about to \33bremove\33n the configuration\ndata related to the device with the ID\n\33b%s\33n.\nThis includes all individually saved class\nsetting for the device or interfaces, as well\nas the stuff Trident saves (such as custom name or\npopup inhibit).\n\nAre you sure you want to remove these prefs?
 ;
 MSG_ACTION_CFG_REMOVE_DEFAULT
-Вы собираетесь \33bудалить\33n конфигурацию\nиспользуемую по умолчанию классом\n\33b%s\33n.\nПри следующей загрузке классы будут\nиспользовать свои встроенные настройки.\nОбычно это не затрагивает персональные\nнастройки устройств или интерфейсов.\n\nВы уверены, что хотите это сделать?
+Вы собираетесь \33bудалить\33n конфигурацию\nиспользуемую по умолчанию классом\n\33b%s\33n.\n\nПри следующей загрузке классы будут\nиспользовать свои встроенные настройки.\nОбычно это не затрагивает персональные\nнастройки устройств или интерфейсов.\n\nВы уверены, что хотите это сделать?
 ; You are about to \33bremove\33n the (default)\nconfiguration of the class \33b%s\33n.\nThis will set the classes initial prefs to the\ninternal defaults \33bon next boot\33n!\nIt does normally not affect the device or interface\nindividually saved settings.\n\nAre you sure you want to remove these prefs?
 ;
 MSG_ACTION_CFG_REMOVE_CLASS

@@ -72,23 +72,23 @@ MSG_DRAG
 ; Screen Dragging
 ;
 MSG_DRAG_BOUNDS
-Ограничить перетаскивание до границ...
+До границ монитора...
 ; Limit dragging to Displays bounds...
 ;
 MSG_BOUND_LEFT_DRAG
-Ограничить перетаскивание влево
+Не таскать влево
 ; Bound drag in left direction
 ;
 MSG_BOUND_RIGHT_DRAG
-Ограничить перетаскивание вправо
+Не таскать вправо
 ; Bound drag in right direction
 ;
 MSG_BOUND_TOP_DRAG
-Ограничить перетаскивание вверх
+Не таскать вверх
 ; Bound drag in top direction
 ;
 MSG_BOUND_BOTTOM_DRAG
-Ограничить перетаскивание вниз
+Не таскать вниз
 ; Bound drag in bottom direction
 ;
 MSG_META_DRAG

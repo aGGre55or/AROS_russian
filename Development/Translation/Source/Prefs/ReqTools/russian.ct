@@ -6,10 +6,10 @@ MSG_WINDOW_TITLE
 Настройки Reqtools
 ;
 MSG_GENERAL
-Общие
+Общие настройки
 ;
 MSG_FILEREQUESTER
-Запрос фaйла
+Запрос выбора файлов
 ;
 MSG_SIZE
 Высота (в % от экрана)
@@ -54,7 +54,7 @@ MSG_MMB_PARENT
 Возврат по средней кнопке
 ;
 MSG_DEFAULTS
-Устaновки:
+Настройки окна запроса:
 ;
 MSG_REQUESTER
 \33bЗапрос:

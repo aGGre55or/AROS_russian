@@ -1,0 +1,318 @@
+## version $VER: wanderer.catalog 3.0 (17.02.2021)
+## codeset 2104
+## language russian
+;
+MSG_NAME
+Настройки Wanderer
+; Wanderer Preferences
+;
+MSG_DESCRIPTION
+Настройки рабочего стола Wanderer
+; Wanderer preferences
+;
+MSG_BACKGROUNDS
+Фон
+; Backgrounds
+;
+MSG_BACKGROUND_WORKBENCH
+Workbench
+; Workbench
+;
+MSG_BACKGROUND_DRAWERS
+Директории
+; Drawers
+;
+MSG_SELECT_WORKBENCH_BACKGROUND
+Выбор фона Workbench
+; Select Workbench Background
+;
+MSG_SELECT_DRAWER_BACKGROUND
+Выбор фона директорий
+; Select Drawer Background
+;
+MSG_GENERAL
+Общие настройки
+; General
+;
+MSG_APPEARANCE
+Отрисовка и эффекты
+; Appearance
+;
+MSG_TOOLBAR
+Инструментарий
+; Toolbar
+;
+MSG_CLASSIC
+Обычный
+; Classic
+;
+MSG_ENHANCED
+Расширенный
+; Enhanced
+;
+MSG_NAVIGATION
+Навигация
+; Navigation
+;
+MSG_METHOD
+Метод
+; Method
+;
+MSG_OBJECTS
+Объекты
+; Objects
+;
+MSG_PREVIEW
+Просмотр
+; Preview
+;
+MSG_TOOLBAR_ENABLED
+Вкл. Инструментарий
+; Toolbar Enabled
+;
+MSG_ICONSPREFS
+Отрисовка иконок
+; Icons look and feel
+;
+MSG_ICONLISTMODE
+Расстановка иконок
+; Icon listmode
+;
+MSG_ICONLISTMODE_PLAIN
+Расставить в ряд
+; List icons plainly
+;
+MSG_ICONLISTMODE_GRID
+Расставить по сетке
+; List icons by grid
+;
+MSG_ICONTEXTMODE
+Вид текста иконок
+; Icons text drawmode
+;
+MSG_ICONTEXTMODE_OUTLINE
+Обводка
+; Outline
+;
+MSG_ICONTEXTMODE_PLAIN
+Обычный
+; Plain
+;
+MSG_ICONTEXTMODE_SHADOW
+Тень
+; Drop shadow
+;
+MSG_ICONTEXTLENGTH
+Макс. длина текста иконок
+; Max icon textlength
+;
+MSG_DOUBLEBUFFERED
+двойная буферизация
+; double buffering
+;
+MSG_MISC
+прочее
+; misc
+;
+MSG_BUBBLESCREENTITLE
+%pc = Свободно Chip Ram\n\
+%pf = Свободно Fast Ram\n\
+%pt = Свободно памяти\n\
+%PC = Chip Ram\n\
+%PF = Fast Ram\n\
+%PT = Всего памяти\n\
+%os = Версия AROS\n\
+%wb = Версия Wanderer\n\
+%ov = Полная версия AROS\n\
+%wv = Полная версия workbench.library
+;
+MSG_TILEMODE
+Расположение :
+; Tile mode :
+;
+MSG_XOFFSET
+Смещение по X :
+; X Offset :
+;
+MSG_YOFFSET
+Смещение по Y :
+;Y Offset :
+;
+MSG_ICONLABELFONT
+Шрифт подписей иконок...
+; Icon Label Font...
+;
+MSG_ICONINFOFONT
+Шрифт свойств иконок...
+; Icon Info Font...
+;
+MSG_HORIZSPACINGICON
+Горизонтальный интервал между иконками
+; Horizontal spacing between icons
+;
+MSG_VERTSPACINGICON
+Вертикальный интервал между иконками
+; Vertical spacing between icons
+;
+MSG_PADDINGICONIMAGELABEL
+Отступ от изображений до подписей иконок
+; Padding between Icon Image and Label
+;
+MSG_HORIZPADDINGLABELTEXT
+Горизонтальный отступ от рамки подписи до текста
+; Horizontal Padding between Label Frame and Text
+;
+MSG_VERTPADDINGLABELTEXT
+Вертикальный отступ от рамки подписи до текста
+; Vertical Padding between Label Frame and Text
+;
+MSG_FRAMEWIDTH
+Высота текста в подписи
+; Label Frame Width
+;
+MSG_FRAMEHEIGHT
+Ширина текста в подписи
+; Label Frame Height
+;
+MSG_TILED
+Замостить
+; Tiled
+;
+MSG_SCALED
+Растянуть
+; Scaled
+;
+MSG_FLOATING
+Плавающее
+; Floating
+;
+MSG_FIXED
+Фиксированное
+; Fixed
+;
+MSG_LABELLINELENGTH
+Кол-во символов в строке...
+; Max. Label line length...
+;
+MSG_USEMULTILINELABELS
+Многострочные подписи
+; Use MultiLine Labels
+;
+MSG_SHOWFOCUSEDICON
+Показывать только при выборе
+; Only show for Focus(ed) Icon
+;
+MSG_NDISPLAYLINES
+Кол-во отображаемых строк...
+; No. of lines to display...
+;
+MSG_TILEMODEOPTIONS
+Плиточный режим...
+; Tile Mode Options...
+;
+MSG_SCALEMODEOPTIONS
+Масштабирование...
+; Scale Mode Options...
+;
+MSG_ADVANCEDOPTIONS
+Дополнительные настройки...
+; Advanced Options...
+;
+MSG_BACKGROUNDOPTIONS
+Настройки фонового изображения...
+; Background Options...
+;
+MSG_DRAWMODE
+Отрисовка фона :
+; Draw mode :
+;
+MSG_USERFILEONWB
+Директории на рабочем столе
+; User Files Folder on Workbench
+;
+MSG_NETWORKONWB
+Сетевые устройства на рабочем столе
+; Network Browser on Workbench
+;
+MSG_VIEWSETTINGS
+Настройки просмотра
+; View Settings
+;
+MSG_WANDERERSCREENTITLE
+Заголовок Wanderer
+; Wanderer ScreenTitle
+;
+MSG_ADVANCED
+Дополнения
+; Advanced
+;
+MSG_USE
+_Применить
+; _Use
+;
+MSG_CANCEL
+Отмен_а
+; C_ancel
+;
+MSG_LABELSPREFS
+Подписи и текст иконок
+; Labels look and feel
+;
+MSG_ADVANCEDBACKGROUND
+Фоновое изображение
+; Background
+;
+MSG_ADVANCEDICONS
+Иконки
+; Icons
+;
+MSG_ADVANCEDLABELS
+Подписи
+; Labels
+;
+MSG_ICONSORTMODE_BYNAME
+по имени файла
+; By name
+;
+MSG_ICONSORTMODE_BYDATE
+по дате создания
+; By date
+;
+MSG_ICONSORTMODE_BYSIZE
+по размеру файла
+; By size
+;
+MSG_DEFAULT_ICONSORTMODE
+Сортировка по умолчанию
+; Default sort order
+;
+MSG_ICON_AUTOSORT_ENABLED
+Включить автосортировку
+; Autosorting enabled
+;
+MSG_ICON_DRAG_TRANSPARENT
+Прозрачность перемещаемых иконок
+; Use transparency when draging icons
+;
+MSG_DEFAULT_ICONVIEWMODE
+Режим просмотра по умолчанию
+; Default view mode
+;
+MSG_ICONVIEWMODE_ALL
+все файлы
+; All files
+;
+MSG_ICONVIEWMODE_ICONS
+только иконки
+; Icons only
+;
+MSG_ICONDROPMODE
+При перетаскивании на то же устройство
+; Copy of move files placed on same device
+;
+MSG_ICONDROPMODE_MOVE
+перемещать
+;
+MSG_ICONDROPMODE_COPY
+копировать
+;

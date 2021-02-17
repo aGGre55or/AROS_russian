@@ -1,4 +1,4 @@
-## version $VER: installaros.catalog 2.0 (19.12.2020)
+## version $VER: installaros.catalog 2.0 (17.02.2021)
 ## codeset 2104
 ## language russian
 ;
@@ -107,7 +107,7 @@ MSG_USEWORKFOR
 ; Use 'Work' Partition for Extras and Developer Files
 ;
 MSG_BEGINWITHPARTITION
-Хорошо, можно начинать.\n\nПоскольку было выбрано форматирование как минимум одной партиции,\nвы уже не сможете отменить это\nпосле начала.\n\nВыберите 'Продолжить' для начала установки.
+Хорошо, можно начинать.\n\nПоскольку было выбрано форматирование как минимум одной партиции,\nвы уже не сможете отменить этот выбор\nпосле начала установки.\n\nВыберите 'Продолжить' для начала установки.
 ; OK, we are ready to begin.\n\nSince you've chosen to format at least one partition,\nyou will no longer be able to undo changes\nafter this point.\n\nSelect Proceed to begin installation.
 ;
 MSG_BEGINWITHOUTPARTITION

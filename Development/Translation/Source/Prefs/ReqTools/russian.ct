@@ -1,4 +1,4 @@
-## version $VER: ReqTools.catalog 3.1 (17.02.2021)
+## version $VER: ReqTools.catalog 3.1 (18.02.2021)
 ## language russian
 ## codeset 2104
 ;
@@ -42,19 +42,19 @@ MSG_DOWHEEL
 Колесо гаммы:
 ;
 MSG_WHEEL_NONE
-Нет
+нет
 ;
 MSG_WHEEL_SIMPLE
-Обычное
+обычное
 ;
 MSG_WHEEL_FANCY
-Расширенное
+расширенное
 ;
 MSG_MMB_PARENT
 Возврат по средней кнопке
 ;
 MSG_DEFAULTS
-Настройки окна запроса:
+Настройки окна запроса
 ;
 MSG_REQUESTER
 \33bЗапрос:
@@ -81,19 +81,19 @@ MSG_POSITION
 Положение:
 ;
 MSG_POINTER
-По курсору
+по курсору
 ;
 MSG_CENTERWIN
-По центру окна
+по центру окна
 ;
 MSG_CENTERSCR
-По центру экрaна
+по центру экрaна
 ;
 MSG_TOPLEFTWIN
-Верхний левый угол окнa
+верхний левый угол окнa
 ;
 MSG_TOPLEFTSCR
-Верхний левый угол экрaнa
+верхний левый угол экрaнa
 ;
 MSG_OFFSET
 \33bСмещение

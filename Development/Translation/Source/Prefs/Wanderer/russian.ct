@@ -31,7 +31,7 @@ MSG_SELECT_DRAWER_BACKGROUND
 ; Select Drawer Background
 ;
 MSG_GENERAL
-Общие настройки
+Рабочий стол
 ; General
 ;
 MSG_APPEARANCE
@@ -43,19 +43,19 @@ MSG_TOOLBAR
 ; Toolbar
 ;
 MSG_CLASSIC
-Обычный
+обычный
 ; Classic
 ;
 MSG_ENHANCED
-Расширенный
+расширенный
 ; Enhanced
 ;
 MSG_NAVIGATION
-Навигация
+Поведение Wanderer
 ; Navigation
 ;
 MSG_METHOD
-Метод
+Способ перемещения
 ; Method
 ;
 MSG_OBJECTS
@@ -79,11 +79,11 @@ MSG_ICONLISTMODE
 ; Icon listmode
 ;
 MSG_ICONLISTMODE_PLAIN
-Расставить в ряд
+рядами
 ; List icons plainly
 ;
 MSG_ICONLISTMODE_GRID
-Расставить по сетке
+по сетке
 ; List icons by grid
 ;
 MSG_ICONTEXTMODE
@@ -91,15 +91,15 @@ MSG_ICONTEXTMODE
 ; Icons text drawmode
 ;
 MSG_ICONTEXTMODE_OUTLINE
-Обводка
+обводка
 ; Outline
 ;
 MSG_ICONTEXTMODE_PLAIN
-Обычный
+обычный
 ; Plain
 ;
 MSG_ICONTEXTMODE_SHADOW
-Тень
+тень
 ; Drop shadow
 ;
 MSG_ICONTEXTLENGTH
@@ -175,19 +175,19 @@ MSG_FRAMEHEIGHT
 ; Label Frame Height
 ;
 MSG_TILED
-Замостить
+замостить
 ; Tiled
 ;
 MSG_SCALED
-Растянуть
+растянуть
 ; Scaled
 ;
 MSG_FLOATING
-Плавающее
+плавающее
 ; Floating
 ;
 MSG_FIXED
-Фиксированное
+фиксированное
 ; Fixed
 ;
 MSG_LABELLINELENGTH
